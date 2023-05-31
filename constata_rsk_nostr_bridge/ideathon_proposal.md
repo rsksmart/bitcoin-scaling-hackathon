@@ -2,20 +2,22 @@
 
 We want to bring Ads to Nostr cutting out the middle man.
 
-Content creators will be able to monetize their accounts and have full control of the ads they publish and frequency. Payment is guaranteed just by publishing the required message on nostr.
+Content creators will be able to monetize their accounts and have full control of the ads they publish and frequency in which they publish. Payment is guaranteed just by submitting proof of the required message on nostr.
 
-Advertisers will be able to reach the Nostr audience, which they can't now.
+Advertisers will be able to reach the Nostr audience, which they can't do now.
 And they can verify the cost and reach of their campaigns without trusting a centralized media marketplace.
 
 Nostriches can support content creators paying with their attention instead of sats. They will get curated ads and won't be tracked by ad companies.
 
 ## Background and Context
 
-Nostr is a messaging network like Twitter, supporting various use cases, but with a focus on micro-blogging. Unlike Twitter or Facebook, Nostr doesn't use a centralized algorithm to boost specific content or ads. Instead, peers donate to quality content using Lightning Network through a protocol extension called Zaps.
+Nostr is a messaging network like Twitter, supporting various use cases, but with a focus on micro-blogging. Unlike Twitter or Facebook, Nostr doesn't use a centralized algorithm to boost specific content or ads.
 
-This direct economic reward for quality content, and the absense of a centralized ad network, means that bot armies that fake engagement and discourse are unnecessary. Follower counts and impressions become less important, making it harder for a few users to hoard followers.
+The absense of a centralized ad network to exploit means that bot armies that fake engagement and discourse are unnecessary. Follower counts and impressions become less important, making it harder for a few users to hoard followers.
 
-But as Nostr grows, the scattered attention it captures becomes valuable for advertising.
+To support the infrastructure micropayments are used across the board: Peers donate to quality content using Lightning Network through a protocol extension called Zaps, and paid relays guarantee quality services and anti-spam measures.
+
+As Nostr grows the attention it captures becomes valuable for advertising, and to be compatible with its decentralized organization nature, ads should acknowledge advertisers, content creators and users are free agents. Users reward content creators with their attention, which they then sell to advertisers.
 
 Advertisement is a powerful tool, but it has a bad reputation, mostly on account of it being taken over by a cartel of middlemen. Advertisers, content creators and users relinquish control to ad platforms that cannot be independently audited.
 
