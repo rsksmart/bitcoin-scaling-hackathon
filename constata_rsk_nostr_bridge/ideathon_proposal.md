@@ -2,7 +2,7 @@
 
 We want to bring Ads to Nostr cutting out the middle man.
 
-Content creators will be able to monetize their accounts and have full control of the ads they publish and frequency in which they publish. Payment is guaranteed just by submitting proof of the required message on nostr.
+Content creators will be able to monetize their accounts and have full control of the ads they publish and frequency in which they publish. Payment is guaranteed to them when they submit a signed nostr event that meets the advertiser's requirements to an RSK smart contract.
 
 Advertisers will be able to reach the Nostr audience, which they can't do now.
 And they can verify the cost and reach of their campaigns without trusting a centralized media marketplace.
@@ -17,7 +17,7 @@ The absense of a centralized ad network to exploit means that bot armies that fa
 
 To support the infrastructure micropayments are used across the board: Peers donate to quality content using Lightning Network through a protocol extension called Zaps, and paid relays guarantee quality services and anti-spam measures.
 
-As Nostr grows the attention it captures becomes valuable for advertising, and to be compatible with its decentralized organization nature, ads should acknowledge advertisers, content creators and users are free agents. Users reward content creators with their attention, which they then sell to advertisers.
+As Nostr grows the attention it captures becomes valuable for advertising, and to be compatible with its decentralized organization nature, ads should acknowledge that advertisers, content creators and users are free agents. Users reward content creators with their attention, which they then sell to advertisers.
 
 Advertisement is a powerful tool, but it has a bad reputation, mostly on account of it being taken over by a cartel of middlemen. Advertisers, content creators and users relinquish control to ad platforms that cannot be independently audited.
 
