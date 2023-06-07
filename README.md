@@ -15,38 +15,39 @@ In order to submit a project, follow these steps:
 ## Submission details
 
 ### Phase I: Ideathon
+*Tuki - A Debit Card to Receive Stablecoin Remittances in Mexico*
 
-**Executive Summary:**
-Our proposal outlines the development of Tuki, a debit card solution designed to receive stablecoin remittances in Mexico. With over 12 million Mexicans living in the USA and a staggering $13.9 billion in remittances sent to Mexico in Q1 2023, there is a significant market opportunity for Tuki. By leveraging the Rootstock ecosystem, we aim to provide an innovative, convenient, and cost-effective solution to address the challenges faced by individuals receiving remittances in Mexico. Tuki will enable seamless remittance transfers, fast KYC onboarding, and the issuance of virtual or physical debit cards that can be used across Mexico. By partnering with mom and pop shops and reducing cash transactions, Tuki also aims to enhance financial inclusion and expand digital payments in the country.
+*Executive Summary:*
+Tuki aims to revolutionize remittances in Mexico by offering a debit card solution that allows individuals to receive stablecoin remittances from anywhere in the world. The project leverages the Rootstock ecosystem, including RIF Name Service, RIF Relay, and Identity, to enhance user experience, facilitate seamless transactions, and build a reputation score for the unbanked population. By tapping into the vast market of remittances and the unbanked population in Mexico, Tuki has the potential to make a significant impact on the web3/Bitcoin/Rootstock ecosystem.
 
-**Project Overview:**
-Tuki's objective is to facilitate the receipt of stablecoin remittances in Mexico through a user-friendly and efficient solution. The project aims to solve the challenge faced by Mexicans receiving remittances, provide a streamlined and secure process for onboarding, and offer a convenient debit card for everyday transactions. By leveraging the Rootstock ecosystem, Tuki can tap into the advantages of blockchain technology, such as improved UX with human-readable names, the ability to accept ERC-20 stablecoins as payment, and the potential to build a reputation score for the unbanked population. The impact of Tuki extends beyond remittances, as it strives to reduce the reliance on cash transactions and drive financial inclusion.
+*Project Overview:*
+Tuki addresses the problem of inefficient and costly remittance processes in Mexico. With a substantial amount of remittances being sent to Mexico each quarter and a large population of unbanked individuals, there is a need for a secure and accessible solution to receive and utilize these funds. Tuki's solution is to provide virtual or physical debit cards to recipients after a quick KYC onboarding process. The stablecoin remittances can be used for everyday transactions, reducing the reliance on cash and empowering the unbanked population.
 
-**Background & Context:**
-Remittances play a vital role in the Mexican economy, with $13.9 billion sent to Mexico in Q1 2023. However, the current process of receiving remittances is often cumbersome and expensive, particularly for the unbanked population. Additionally, the prevalence of cash transactions limits the potential for digital payments and financial inclusion in the country. Tuki aims to address these challenges by offering a user-friendly solution that leverages stablecoins, streamlines onboarding through a quick KYC process, and provides a versatile debit card for everyday use.
+*Potential Impact:*
+Tuki's solution has several potential impacts on the web3/Bitcoin/Rootstock ecosystem as well as the Mexican market. By leveraging Rootstock's technologies, Tuki enhances user experience through human-readable names, enables seamless payment of commissions or fees in ERC-20 stablecoins, and initiates the development of a reputation score for the unbanked population. This not only improves financial inclusion and access to digital services but also strengthens the adoption and utility of the Rootstock ecosystem. Furthermore, by partnering with mom and pop shops and reducing cash transactions, Tuki contributes to the modernization of Mexico's retail sector while addressing the needs of remittance recipients.
 
-**Value Proposition:**
-Tuki's solution offers several key benefits to its target audience. Firstly, by accepting stablecoin remittances, Tuki eliminates the need for traditional, costly money transfer methods. With a fee of $3 per transaction under $400 or a 3% commission for higher amounts, Tuki provides a cost-effective alternative for remittance recipients. The issuance of virtual or physical debit cards enables recipients to conveniently access their funds and make purchases at any location within Mexico. By partnering with mom and pop shops, Tuki also taps into a vast network of community businesses, facilitating onboarding and driving the adoption of digital payments while reducing reliance on cash.
+*Background & Context:*
+The problem of inefficient remittance processes and limited financial inclusion is crucial to address in Mexico. In Q1 2023 alone, a significant amount of remittances, valued at 13.9 billion USD, was sent to Mexico. Additionally, the presence of over 12 million Mexicans living in the USA and the high rate of phone ownership with internet access (9 out of 10 Mexicans) creates a ripe market for innovative solutions. Furthermore, the 50 million unbanked individuals in Mexico demonstrate the need for accessible financial services that can empower this underserved population.
 
-**Technical Description:**
-Tuki is built on the Rootstock ecosystem, utilizing several RIF technologies to enhance its functionality. RIF Name Service improves the user experience by providing human-readable names for easier identification and transaction routing. RIF Relay enables users to pay fees or commissions in any ERC-20 stablecoin, increasing flexibility and accessibility. Identity solutions within the Rootstock ecosystem allow Tuki to establish a reputation score for the unbanked population, contributing to financial inclusion efforts. The entire system is deployed on the Rootstock Blockchain, ensuring security, transparency, and efficiency. Pomelo, a Banking as a Service platform, is utilized for account opening and card issuance.
+*Value Proposition:*
+Tuki's solution stands out due to its innovative approach and various benefits. By offering a debit card for stablecoin remittance recipients, Tuki provides a secure, convenient, and fast method for individuals to receive and utilize funds. The integration of Rootstock's ecosystem, including RIF Name Service, RIF Relay, and Identity, enhances user experience, enables seamless transactions, and fosters the development of a reputation score for the unbanked population. Tuki's solution not only improves financial inclusion but also contributes to reducing cash transactions, thus modernizing the retail sector and promoting economic growth.
 
-**Market Analysis:**
-The market opportunity for Tuki is significant, given the substantial volume of remittances sent to Mexico, reaching $13.9 billion in Q1 2023. With over 12 million Mexicans living in the USA and 11.1 million Mexicans receiving remittances monthly, Tuki addresses a large market. By providing a
+*Technical Description:*
+Tuki's solution is built on the Rootstock ecosystem. RIF Name Service is utilized to enhance the user experience by providing human-readable names for easier identification and interaction. RIF Relay allows users to pay commissions or fees in any ERC-20 stablecoin, ensuring flexibility and compatibility. The integration of Identity enables Tuki to start building a reputation score for the unbanked population, establishing trust and enabling further financial opportunities. All these components are deployed on the secure Rootstock Blockchain. Additionally, Tuki leverages Pomelo as a Banking-as-a-Service platform to open accounts and issue debit cards.
 
- cost-effective and streamlined solution, Tuki aims to outperform existing competitors. Currently, the largest digital competitor, Bitso, holds only 4% of the market, indicating a vast untapped potential for Tuki's growth. By leveraging the Rootstock ecosystem and its associated benefits, Tuki differentiates itself from traditional remittance providers and offers unique advantages to its target audience.
+*Market Analysis:*
+Tuki's solution addresses a large market opportunity. With a staggering 13.9 billion USD of remittances sent to Mexico in Q1 2023, there is a significant potential market for Tuki's debit card solution. Moreover, with over 12 million Mexicans residing in the USA and 11.1 million Mexicans receiving remittances each month, there is a clear demand for accessible and efficient solutions to receive and utilize these funds. Tuki's integration with mom and pop shops, which represent 60% of sales in the country, creates an opportunity to onboard their customers and reduce cash transactions.
 
-**Project Plan:**
-To bring Tuki to market, we will execute the following plan:
-1. Develop the Tuki platform leveraging the Rootstock ecosystem and integrating RIF technologies.
-2. Establish partnerships with mom and pop shops in Mexico to onboard their customers and encourage digital payments.
-3. Conduct a comprehensive marketing campaign to raise awareness and promote Tuki as a cost-effective and convenient solution for receiving stablecoin remittances.
-4. Roll out the virtual and physical debit card issuance process, enabling recipients to access their funds and make purchases.
-5. Continuously enhance and iterate the Tuki platform based on user feedback and market dynamics.
-6. Expand Tuki's user base and secure a significant market share by offering superior value compared to competitors.
+*Project Plan:*
+To bring Tuki's idea to market, the following steps will be taken:
+1. Develop and refine the user onboarding process, ensuring a seamless and efficient experience.
+2. Establish partnerships with stablecoin providers and remittance platforms to facilitate the transfer and conversion of funds.
+3. Expand the network of mom and pop shops, educating them about the benefits of Tuki and incentivizing them to onboard their customers.
+4. Continuously enhance and optimize the Tuki platform based on user feedback and market needs.
+5. Implement marketing and awareness campaigns to reach potential remittance senders and recipients, emphasizing the advantages of Tuki's solution.
 
-**Team & Resources:**
-Tuki's team consists of experienced professionals in blockchain technology, remittance services, and financial inclusion initiatives. The team has a deep understanding of the Mexican market and possesses the necessary technical expertise to leverage the Rootstock ecosystem effectively. To bring the idea to life, Tuki will require resources such as software development, marketing and advertising, partnerships with mom and pop shops, and operational infrastructure to support the issuance of debit cards. Tuki will utilize Pomelo as a Banking as a Service platform for account opening and card issuance, reducing the need for extensive banking infrastructure.
+Team & Resources:
+Falta la historia del equipo
 
-**Conclusion:**
-Tuki's proposal outlines a solution to facilitate the receipt of stablecoin remittances in Mexico, leveraging the Rootstock ecosystem and associated RIF technologies. By providing a cost-effective, convenient, and secure platform, Tuki aims to address the challenges faced by Mexicans receiving remittances, while also driving financial inclusion and reducing reliance on cash transactions. With a substantial market opportunity, a competitive advantage over existing providers, and an experienced team, Tuki is poised to make a significant impact in the web3/Bitcoin/Rootstock ecosystem and contribute to the digital transformation of remittance services in Mexico.
+Conclusion:
+Tuki's debit card solution for receiving stablecoin remittances in Mexico has the potential to significantly impact the web3/Bitcoin/Rootstock ecosystem and the Mexican market. By offering a secure, accessible, and innovative solution, Tuki improves financial inclusion, reduces cash transactions, and contributes to the modernization of Mexico's retail sector. Leveraging the Rootstock ecosystem and partnering with 10k mom and pop shops, Tuki aims to capture a significant share of the remittance market while empowering the unbanked population.
