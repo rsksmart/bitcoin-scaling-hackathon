@@ -17,7 +17,7 @@ The absense of a centralized ad network to exploit means that bot armies that fa
 
 To support the infrastructure micropayments are used across the board: Peers donate to quality content using Lightning Network through a protocol extension called Zaps, and paid relays guarantee quality services and anti-spam measures.
 
-As Nostr grows the attention it captures becomes valuable for advertising, and to be compatible with its decentralized organization nature, ads should acknowledge that advertisers, content creators and users are free agents. Users reward content creators with their attention, which they then sell to advertisers.
+As Nostr grows the attention it captures becomes valuable for advertising, and to be compatible with its decentralized organization nature, ads should acknowledge that advertisers, content creators and users are free agents. Users reward content creators with their attention, which they then sell to advertisers. (Update: After this was initially written twitter has at least started acknowledging that the relationship between content creators and their audience is theirs and not twitter's. https://twitter.com/elonmusk/status/1666331961281900545?t=D7tqicZWjYlMyfsaMJZWCA&s=19)
 
 Advertisement is a powerful tool, but it has a bad reputation, mostly on account of it being taken over by a cartel of middlemen. Advertisers, content creators and users relinquish control to ad platforms that cannot be independently audited.
 
