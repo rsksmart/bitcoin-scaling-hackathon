@@ -39,7 +39,7 @@ Dapp builders don't need to carry the burden of securing a centralized UI, and c
 
 We will build a chatbot software that is to be run by a 'federation' of nodes. Each has its own access to the RSK blockchain and participates as a possible signer in a FROST scheme.
 
-When the federation address receives a message, a reply is produced by a consensus algorithm between its members, signed by all of them and relayed back to the user.
+When the federation address receives a message, a reply is produced by a consensus algorithm between its members, signed by some of them and relayed back to the user.
 
 User messages may be a query about some information on the RSK blockchain, or may require signing a transaction. For the later, the federation produces the transaction and gives it back to the user for signing. (Hopefully using deep links, but we need to make sure they work in all nostr clients).
 
