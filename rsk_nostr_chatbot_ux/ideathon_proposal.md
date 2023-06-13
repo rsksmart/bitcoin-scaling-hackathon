@@ -29,7 +29,7 @@ We propose creating a multi-party entity on nostr (using FROST) that can chat wi
 
 Text UI has proven to be extremely flexible yet intuitive. Nostr clients run in most platforms.
 
-One current approach for improving a decentralizing UX in dapps is to move things into the wallet GUI. But there's always tension between features and attack surface of the wallet, so the GUI's end up being too generic not refleting any specific use case. Another approach is to build a specific GUI for a contract (usually on the web). Specific client apps become a good target for ciber attacks.
+One current approach for improving a decentralizing UX in dapps is to move things into the wallet GUI. But there's always tension between features and attack surface of the wallet, so the GUI's end up being too generic not refleting any specific use case. Another approach is to build a specific GUI for a contract (usually on the web). Specific client apps become a good target for cyberattacks.
 
 By chatting with a decentralized entity users can interact with smart contracts without trusting a single party.
 
