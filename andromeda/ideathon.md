@@ -149,16 +149,14 @@ By executing this plan, Andromeda can establish a strong presence in the NFT mar
   ### Team-Market Fit
   Key aspects of Team-Market Fit for Andromeda include:
 
-  1. Industry Knowledge: The team members should have a comprehensive understanding of the art and creative industries, including the traditional art market, digital art, and the emerging NFT space. This knowledge enables them to grasp the nuances of the market, identify pain points, and develop tailored solutions that resonate with artists, collectors, and enthusiasts.
-
-  2. Technical Expertise: Given the technological nature of the NFT marketplace, the team must possess strong technical expertise in blockchain development, smart contracts, decentralized platforms, and digital asset management. This expertise allows them to design and build a secure, scalable, and user-friendly platform that meets the demands of the market.
-
-  3. Entrepreneurial Mindset: The team should exhibit an entrepreneurial mindset characterized by agility, adaptability, and a willingness to take calculated risks. This mindset enables the team to navigate the rapidly evolving market landscape, seize emerging opportunities, and pivot when necessary.
-  4. Network and Connections: A team with established connections and a wide network in the art, blockchain, and NFT communities can significantly contribute to Team-Market Fit. These connections provide access to artists, collectors, influencers, and industry experts, facilitating partnerships, collaborations, and community engagement.
-  5. Customer-Centric Approach: The team should have a customer-centric mindset, placing the needs and preferences of artists, collectors, and users at the center of their decision-making process. This focus on understanding and addressing user pain points enables the team to develop features, functionalities, and user experiences that resonate with the target market.
-  6. Adaptability and Learning Culture: Given the evolving nature of the NFT market, the team should embrace a culture of continuous learning, experimentation, and adaptability. This allows them to stay ahead of market trends, adopt emerging technologies, and respond to user feedback, ensuring that Andromeda remains relevant and competitive.
+  1. Industry Knowledge
+  2. Technical Expertise
+  3. Entrepreneurial Mindset
+  4. Network and Connections
+  5. Customer-Centric Approach
+  6. Adaptability and Learning Culture
    
-  Achieving strong Team-Market Fit increases the chances of success for Andromeda. It positions the team to understand the needs of the market deeply, develop innovative solutions, and effectively communicate the value proposition to the target audience. By aligning the team's skills and expertise with the demands of the NFT marketplace, Andromeda can build a competitive advantage and establish itself as a trusted and influential player in the industry.
+  By aligning the team's skills and expertise with the demands of the NFT marketplace, Andromeda can build a competitive advantage and establish itself as a trusted and influential player in the industry.
   ### Resources
   To successfully bring the Andromeda idea to market, several key resources will be needed and utilized. These resources include:
   1. Team: Assemble a skilled and diverse team of professionals including developers, blockchain experts, UI/UX designers, marketers, community managers, and legal advisors. The team should have expertise in their respective fields and a shared vision for the project's success.
