@@ -5,7 +5,7 @@ Repository for "Rootstock: Bitcoin Scaling Hackathon" submissions
 
 In order to submit a project, follow these steps:
 
-1- Fork this repository
+1- Fork this repository 
 
 2- Create a folder with your project name and include every deliverable of your project inside it
 
