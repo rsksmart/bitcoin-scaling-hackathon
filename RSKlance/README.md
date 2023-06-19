@@ -1,3 +1,4 @@
+# RSKlance: One-stop solution for all contract work, build on top of RootStock
 ## Project Overview & Summary
 The freelance payment platform aims to provide a secure and transparent payment system for freelance developers. The platform leverages the Rootstock smart contract capabilities to automate and streamline the payment process based on task completion. This design document outlines the key components and functionalities of the system. Our project aims to develop a decentralized platform for project management and payment using smart contracts on the Rootstock (RSK) blockchain. The platform enables clients to post projects and developers to pick them up, ensuring secure and transparent payment releases based on task completion.
 

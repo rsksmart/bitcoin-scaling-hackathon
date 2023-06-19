@@ -1,3 +1,4 @@
+# BitHold'em: Poker game running on RootStock
 ## Executive Summary
 Our proposal is to build a decentralized application (Dapp) for online poker on the Rootstock platform, leveraging its merge mining capabilities with Bitcoin. By integrating trust and transparency into the system, we aim to address the existing issues of scams and lack of trust in online poker. Our solution offers a secure and reliable environment, attracting both seasoned players and newcomers, and aims to capture a substantial share of the online poker market.
 
