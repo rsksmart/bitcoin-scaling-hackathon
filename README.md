@@ -1,7 +1,8 @@
 # Rootstock: Bitcoin Scaling Hackathon
 
 ### Phase I: Ideathon
-**Tuki - Self custodial debit card**
+
+##Tuki - Self custodial debit card
 
 **Executive Summary:**
 
