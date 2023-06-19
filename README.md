@@ -10,7 +10,7 @@ Tuki, the self-custody debit card, is transforming how Latinxs interact with cry
 
 <p align="center">
     <br>
-    <img src="imgs/landing.png" width="500"/>
+    <img src="img/landing.png" width="500"/>
     <br>
 <p>
 
