@@ -45,8 +45,8 @@ Tule from Argentina is second time founder, vc-backed with experience in ecommer
 Carlos from Mexico is second time founder, YC alumni with experience in AI and retail.
 
 The team already worked together on other web3 projects and Ripio Hackathon:
-Decentralized betting app for WorldCup 2022 https://qatarprode.xyz
-ERC-20 staking dapp for Modular Hackathon: https://github.com/RipioHackathon/rskstaking
+  Decentralized betting app for WorldCup 2022: https://qatarprode.xyz
+  ERC-20 staking dapp for Modular Hackathon: https://github.com/RipioHackathon/rskstaking
 
 
 **Conclusion:**
