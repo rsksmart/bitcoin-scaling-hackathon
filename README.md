@@ -41,8 +41,9 @@ Following our seed round, we plan to enhance our technical capabilities, expand 
 
 Our founding team consists of diverse and highly talented individuals who came together to build a solution for financial inclusivity. We bring a mix of technical, financial, and strategic expertise to the table.
 
-Tule from Argentina is second time founder, vc-backed with experience in ecommerce and payments.
-Carlos from Mexico is second time founder, YC alumni with experience in AI and retail.
+Tule from Argentina is second time founder, vc-backed with experience in ecommerce and payments. https://www.linkedin.com/in/alejandro-luis-romeo-estevez-a9850150/
+
+Carlos from Mexico is second time founder, YC alumni with experience in AI and retail. https://www.linkedin.com/in/carloscastilloperera/
 
 The team already worked together on other web3 projects and Ripio Hackathon:
 
