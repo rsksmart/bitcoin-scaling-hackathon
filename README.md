@@ -6,7 +6,13 @@
 
 **Executive Summary:**
 
-Tuki, the self-custody debit card, is transforming how Latinxs interact with cryptocurrency. In just two months, we have built a peer-to-peer payment application that is protecting our users from inflation and making cryptocurrency usable in everyday life. 
+Tuki, the self-custody debit card, is transforming how Latinxs interact with cryptocurrency. In just two months, we have built a peer-to-peer payment application that is protecting our users from inflation and making cryptocurrency usable in everyday life.
+
+<p align="center">
+    <br>
+    <img src="imgs/landing.png" width="500"/>
+    <br>
+<p>
 
 **Project Overview:**
 
