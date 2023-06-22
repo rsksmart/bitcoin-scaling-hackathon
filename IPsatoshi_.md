@@ -57,7 +57,7 @@ The plan to bring IPsatoshi to market includes the following key steps:
 ## Team & Resources
 
 **Team Members:**
-- [Your Name]: Advanced hobbyist and Bitcoin enthusiast
+- HuluvuBlue: Advanced hobbyist and Bitcoin enthusiast
 
 **Team-Market Fit:**
 As an advanced hobbyist and Bitcoin enthusiast, I possess deep knowledge and understanding of the Bitcoin ecosystem. I have a strong technical background in blockchain technology and decentralized systems, which positions me well to lead the development and implementation of IPsatoshi.
