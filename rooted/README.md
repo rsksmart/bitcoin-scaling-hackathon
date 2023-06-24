@@ -101,6 +101,7 @@ By following this plan, Rooted aims to build a strong presence in the market, at
 #### 👥Team and Resources
 - Team Members:
     - Shubham Gupta: Full-Stack Blockchain Developer with a strong knack for Entrepreneurship. Shubham will bring technical expertise and leadership to the development and implementation of Rooted.
+    - [Twitter](https://twitter.com/0xmysticShub)
 
 - Team-Market Fit:
     - The team is well-positioned to tackle the market opportunity presented by Rooted. With a strong background in blockchain development and a focus on entrepreneurship, Shubham Gupta understands the technical intricacies of building privacy solutions and possesses the necessary skills to navigate the market and drive adoption. This team-market fit ensures that the project can be executed effectively and aligns the team's expertise with the demands of the target market.
