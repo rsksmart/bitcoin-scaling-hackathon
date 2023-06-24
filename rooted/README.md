@@ -24,15 +24,15 @@ Rooted is a non-custodial solution that uses stealth addresses which will allow 
 
 - Privacy is a fundamental aspect of financial transactions. Without privacy, users are susceptible to various risks, including:
 
- - Identity exposure: When transactions are conducted openly on a blockchain, it becomes possible for observers to connect transactions with specific individuals or businesses. This can lead to the loss of financial privacy and potential targeting or surveillance.
+    - Identity exposure: When transactions are conducted openly on a blockchain, it becomes possible for observers to connect transactions with specific individuals or businesses. This can lead to the loss of financial privacy and potential targeting or surveillance.
  
- - Financial profiling: Analyzing blockchain transactions can enable third parties to build detailed profiles of individuals and businesses, including their spending habits, income, and financial relationships. This information can be used for targeted advertising, discrimination, or even extortion.
+    - Financial profiling: Analyzing blockchain transactions can enable third parties to build detailed profiles of individuals and businesses, including their spending habits, income, and financial relationships. This information can be used for targeted advertising, discrimination, or even extortion.
 
- - Security vulnerabilities: Repeatedly using the same address for receiving funds on a transparent blockchain can make users vulnerable to hacking or phishing attacks. Attackers can analyze transaction history to identify patterns, monitor account balances, and exploit weaknesses in security.
+    - Security vulnerabilities: Repeatedly using the same address for receiving funds on a transparent blockchain can make users vulnerable to hacking or phishing attacks. Attackers can analyze transaction history to identify patterns, monitor account balances, and exploit weaknesses in security.
 
- - Business competition: Companies conducting transparent transactions may inadvertently reveal sensitive financial information, such as sales volume, supply chain relationships, or partnerships. Competitors could exploit this information for their advantage, compromising the competitiveness of businesses.
+    - Business competition: Companies conducting transparent transactions may inadvertently reveal sensitive financial information, such as sales volume, supply chain relationships, or partnerships. Competitors could exploit this information for their advantage, compromising the competitiveness of businesses.
 
- - Compliance concerns: Certain industries, such as healthcare or finance, require strict privacy regulations. Transparent blockchain transactions may conflict with these regulations, leading to legal issues or non-compliance penalties.
+    - Compliance concerns: Certain industries, such as healthcare or finance, require strict privacy regulations. Transparent blockchain transactions may conflict with these regulations, leading to legal issues or non-compliance penalties.
 
 - The importance of tackling this problem lies in the preservation of financial privacy and the protection of individuals' and businesses' sensitive information. By offering a user-friendly solution for anonymous transactions through stealth addresses, Rooted aims to empower users with greater control over their financial privacy and mitigate the risks associated with identity exposure.
 
