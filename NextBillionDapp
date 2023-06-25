@@ -1,0 +1,128 @@
+https://crypto-ai-pro.web.app/  - App Structure  link
+A written proposal outlining the idea and its potential impact on the web3/Bitcoin/Rootstock ecosystem
+Rootstock Bitcoin Scaling Hackathon
+Phase 1- Ideathon
+
+Team – NextBillionDapp
+Yeshwanth Sai Melpati (Leader),Diksha Jha, Sonam Bharti , Shivam  Singh
+
+Executive Summary
+Crytpto AI Pro has following features:
+Top3 Crypto AI:
+User gets top 3 performing cryptos - recommended by our AI Engine.
+Streak feature:
+User can pick three options which he thinks would perform better in next consecutive day, if crypto perform well then user will get a streak of one day and continuous.
+* A continuous streak is given to user for identifying correct crypto that perform better in the next day.
+Follow features:
+User how has made continuous streaks for 25 days are named pro, and they can be followed by other users for which users has to pay very nominal amount.
+
+• Project Overview: 
+Cryto AI Pro is mobile and web app which helps users to identify right options for crypto investments.
+
+A clear and concise summary of the project Overview of the project includes:
+Users get top 3 performing options to invest and at same time follow high valued pros for better recommendations. It can be understood by the following steps-
+bitcoin :: [ 2012 - 2018 ] - early adoptors
+-----------------
+
+~ bitcoin - investment --> bitcoin reach mases.
+
+app -> mases to invest
+
+1k -- [ barier ] - user -> research [ 6 months ]
+
+
+[ new user -> simple way -> proper options to invest ]
+
+
+features :
+AI recomendation system
+[ history data + news ] -> top 3 bitcoins
+
+
+create a portfolio of users based on his streaks
+
+try to pick top three bitcoin -> user more probability -> profit
+
+
+~
+stock brokers | bitcoin brokers
+10% [ 10 years exp - lot of degrees - earned lot of money - served lot of clients ] very popular
+
+90% - skill to predict [ young - degrees - clients - not popular  ]
+
+[ investments api ]
+user - follows high streak -> ivests - 0.001 going into high streak
+
+Problem you are solving
+Zerodha CEO Nitin Kamath :
+So many are surprised that just 1% of active traders make more than bank fixed deposits over 3 years timeframe. Active trading is like running a business, only a small % succeed. The only easy bit about trading is starting trading.
+
+Hence traders suffer a lot by making loses choosing wrong stocks. We help in giving the right choices to pick so that even if profit % are less but surely there would be profit with high probability.
+
+Target : Among 90% of traders loosing money per day, We try and do our best to save atleast 5% of them.
+
+The solution
+Crypto AI Pro is a simple yet easy to use mobile/web app that gives top performing options to invest.
+Futher versions:
+Investment platform:
+We add features where our users can directly start trading in our app.
+
+Followers Recommended Stocks:
+User can invest in their followers ( pros ) recommended bitcoins, which helps monitize more for pros.
+
+News api:
+For each stock we give them the news associated with it, So that it would be easy to understand the potential of the stocks.
+
+Potential Impact
+Among 90% of traders loosing money per day i.e ($180 billion ), We try and do our best to save at-least 5% of them.
+Background & Context:
+Every traders comes with a phase of initial learning where he incurs lot of loses. To avoid that and help user to choose better stocks every day, Stocks AI pro comes to rescue.
+
+Explain why the problem you're tackling is important.
+Only a 1% of the traders are successful, We need to increase it.
+
+Value Proposition:
+Rs 66,864 crore is traded daily, which we try to help around 50% of it.
+
+
+Outline the value proposition of your solution.
+ Explain why it is
+There is no existing way to pick right options for investing.
+
+innovative, effective, or better than existing solutions, Highlight the key benefits to your target audience.
+We believe in simple, collective and effective.
+
+Technical Description:
+
+UI/UX - Figma
+Web - Angular
+Mobile - Angular
+ML layer - Google colabs | keras
+API Layer - Python-Flask
+Backend Layer - MySQL
+
+Explain how your solution works on Rootstock, what RIF (if any) technologies you are leveraging, and how it addresses the problem you are solving
+Our solutions works on Rootstock crypto enabling user to pick it and invest in it.
+
+Market Analysis: 
+Provide a lite-analysis on the market opportunity your problem is solving
+Initial market analysis will be submitted after our initial product release.
+How is your solution addressing a large market (TAMI
+We are built for PAN india users.
+How is your solution better than incumbent competitors?
+As of now there is no such competitors for our app.
+Near one was Street Gains.
+
+Project Plan: 
+What's your plan to bring your idea to market? Team & Resources
+marketing ::
+Fb, Insta, Youtube
+Influencer marketing
+
+how to attract first 100 users?
+~ Top 3 recommendations
+~ Streaks
+~ Gifts paytm money lucky winner!
+
+Conclusion :
+Crypto AI Pro is a easy to use mobile and web app, where user gets top 3 AI recommended bitcoins to invest for the day. Crypto AI Pro is also a community build up app which helps users to know about their stock preferences and help them get monetized for recommending better options.
