@@ -1,0 +1,4 @@
+TokenLink offers a comprehensive asset tokenization platform that leverages the Rootstock blockchain to overcome the limitations of traditional asset ownership and investment. By tokenizing assets as security tokens, we enable fractional ownership, increased liquidity, and compliance with securities regulations. Through the use of smart contracts and blockchain technology, TokenLink facilitates the seamless transfer, management, and trading of security tokens, creating a transparent and efficient marketplace for investors and issuers.
+
+the link:
+https://www.canva.com/design/DAFm3YAq3mI/BpZ2hTcAVBgoOh7mdt2T2Q/view?utm_content=DAFm3YAq3mI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
