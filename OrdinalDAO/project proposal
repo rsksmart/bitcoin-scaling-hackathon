@@ -42,6 +42,15 @@ The ability for users to borrow RBTC against their staked ordinals.
 The ability for users to repay their borrowed RBTC with interest.
 The ability for users to redeem their staked ordinals after repaying their borrowings.
 
+Technical Implementation:
+Soveryn API to providing lending liquidity 
+RSK lending smart contract (time based)
+Sparrow wallet (Taproot Enabled Ordinal/BTC wallet)
+Soveryn rBTC-BTC bridge
+Deeplake Oracle
+Ordiscan API 
+PSBT/DLC Msigner Library for staking ordinal 
+
 Official Launch: After successful testing and validation of the MVP, we will fork BENDAO to bring additional functionality (peer to pool) to ordinal lending. 
 
 Team:
