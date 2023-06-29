@@ -32,13 +32,17 @@ $204M traded in the last 3 months
 5000 users in March
 21000 users in April
 33000 users in May 
+
 Project Plan:
 
-Our project plan is divided into two main stages:
+Launch MVP: We will develop and release a Minimum Viable Product (MVP) 
+Specifications:
+The ability for users to stake their ordinals.
+The ability for users to borrow RBTC against their staked ordinals.
+The ability for users to repay their borrowed RBTC with interest.
+The ability for users to redeem their staked ordinals after repaying their borrowings.
 
-Launch MVP: We will develop and release a Minimum Viable Product (MVP) to gain user feedback and make necessary improvements.
-
-Official Launch: After successful testing and validation of the MVP, we plan to officially launch our protocol to all users.
+Official Launch: After successful testing and validation of the MVP, we will fork BENDAO to bring additional functionality (peer to pool) to ordinal lending. 
 
 Team:
 
