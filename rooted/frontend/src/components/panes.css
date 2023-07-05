@@ -1,0 +1,245 @@
+.pane input {
+  border: none;
+  outline: 0;
+  color: #e8e8e9;
+  width: 100%;
+  padding: 16px 0 10px;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.pane input:active {
+  user-select: all;
+  -moz-user-select: all;
+  -webkit-user-select: all;
+}
+
+.pane .input-container {
+  position: relative;
+  border-radius: 8px;
+
+  border: 1px solid rgba(232, 232, 233, 0.5);
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px 8px;
+
+  width: 896px;
+  height: 48px;
+
+  /* primary-50 */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.pane label {
+  position: absolute;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  /* primary */
+
+  color: #bebec0;
+
+  /* transform: translate(0, 0) scale(1.5); */
+
+  transform-origin: top left;
+}
+/*
+.input-container input:focus + label {
+  transform: translate(0px, 0) scale(1);
+} */
+
+.pane .message.error {
+  color: #ff4f4f;
+  border-left: 2px solid #ff4f4f;
+}
+
+.pane .message {
+  padding: 4px 8px;
+  border-left: 2px solid #ff9100;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+
+  display: flex;
+  align-items: center;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  display: block;
+
+  max-width: 800px;
+}
+
+.pane strong {
+  color: #ff9100;
+  font-weight: normal;
+}
+
+.pane input::placeholder {
+  color: rgba(232, 232, 233, 0.5);
+}
+
+.pane .hint {
+  width: 353px;
+  height: 48px;
+
+  /* accent */
+  border: 0;
+  border-radius: 0;
+  border-left: 2px solid #ff9100;
+}
+
+.pane .lane {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  width: 896px;
+
+  margin-top: 1.25rem;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.pane button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+
+  cursor: pointer;
+
+  /* height: 48px; */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.pane a.link-text {
+  border-bottom: 1px dashed;
+}
+
+.pane input.error-input {
+  color: #ff4f4f;
+}
+
+.modal {
+  display: none;
+}
+
+.modal.active {
+  display: block;
+}
+
+.modal-window {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 32px;
+
+  height: 50px;
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.pane .input-container.small {
+  width: 280px;
+  flex-grow: 1;
+  margin-right: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+  .pane .lane {
+    width: 360px;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 1rem;
+  }
+
+  .pane .input-container {
+    width: 348px;
+  }
+
+  .pane .input-container.small {
+    width: 160px;
+    margin-right: 12px;
+  }
+  .pane .input-container.hint {
+    width: 160px;
+  }
+
+  .pane .hbutton.hbutton-lnk:first-child {
+    padding-left: 0;
+  }
+
+  .modal-window {
+    height: 36px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  .pane .lane {
+    width: 760px;
+    gap: 16px;
+    margin-top: 1rem;
+  }
+
+  .pane .input-container {
+    width: 760px;
+  }
+
+  .pane .input-container.small {
+    width: 260px;
+    margin-right: 12px;
+  }
+  .pane .input-container.hint {
+    width: 260px;
+  }
+
+  .pane .hbutton.hbutton-lnk:first-child {
+    padding-left: 0;
+  }
+}
