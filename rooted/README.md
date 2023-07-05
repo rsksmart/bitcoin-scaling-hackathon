@@ -2,16 +2,21 @@
 
 Rooted is a non-custodial solution that uses stealth addresses which will allow users to receive funds on Rootstock Blockchain without revealing receivers real address.
 
+### 💻 Live Site
+[Rooted Platform]()
 
-### 📝 Project Description
+### 📺 Video Demo
 
-#### ✍ Project Overview
+
+## 📝 Project Description
+
+### ✍ Project Overview
 - Rooted is a privacy-focused solution addressing the need for anonymity in blockchain transactions. It tackles the risk of exposing the identities and financial information of users by enabling anonymous transactions on the Rootstock Blockchain. The solution utilizes stealth addresses on the Rootstock Blockchain, allowing users to receive funds without revealing their real addresses.
 - The project draws inspiration from existing privacy-focused blockchains like Monero and tools like Tornado Cash, but aims to bridge the gap between complex and expensive privacy solutions and non-private transfers.
 - It empowers users to maintain their privacy, fostering trust and security in the blockchain industry.
 - Overall, Rooted has the potential to become a leading privacy solution, ensuring the confidentiality and anonymity of blockchain transactions.
 
-#### 😎 Idea
+### 😎 Idea
 - I've always been fascinated by the concept of anonymity in blockchains, with various methods available to achieve it.
 - Privacy-focused blockchains like Monero and widely-used networks like Tornado Cash, which is based on anonymity sets or zero-knowledge proof solutions, provide near-perfect privacy for both parties in a transaction.
 - However, they require specialized tools or come at a higher cost than direct transfers, leaving a gap between expensive, complex solutions and non-private transfers.
@@ -19,7 +24,7 @@ Rooted is a non-custodial solution that uses stealth addresses which will allow 
 - Inspired by this idea we decided to create a user-friendly tool utilizing stealth addresses. We chose Rootstock as the initial network for its implementation due to its fast and affordable transactions.
 - The name Rooted is chosen as users will be rooted in such a way that they will become anonymous while doing transactions 😎.
 
-#### 📺 Background & Context
+### 📺 Background & Context
 - The problem that Rooted is tackling is the lack of privacy in blockchain transactions. While blockchain technology offers transparency and immutability, it also exposes transaction details, including sender and receiver addresses. This lack of privacy poses risks for individuals and businesses, as their financial activities can be tracked and potentially linked to their real-world identities.
 
 - Privacy is a fundamental aspect of financial transactions. Without privacy, users are susceptible to various risks, including:
@@ -36,7 +41,7 @@ Rooted is a non-custodial solution that uses stealth addresses which will allow 
 
 - The importance of tackling this problem lies in the preservation of financial privacy and the protection of individuals' and businesses' sensitive information. By offering a user-friendly solution for anonymous transactions through stealth addresses, Rooted aims to empower users with greater control over their financial privacy and mitigate the risks associated with identity exposure.
 
-#### ☄️ Value Proposition
+### ☄️ Value Proposition
 - Enhanced Privacy: Rooted utilizes stealth addresses, allowing users to receive funds without revealing their real addresses. This provides a significant level of privacy for individuals and businesses, ensuring that their financial activities are shielded from prying eyes.
 
 - User-Friendly Solution: Rooted aims to be accessible and user-friendly for both power users and non-power users. The generation and usage of Rooted IDs and stealth addresses are designed to be simple and intuitive, enabling a wide range of users to adopt and utilize the solution without technical complexity.
@@ -49,7 +54,7 @@ Rooted is a non-custodial solution that uses stealth addresses which will allow 
 
 - Market Differentiation: Rooted stands out in the market by offering a unique approach to privacy in blockchain transactions. While other solutions rely on heavy computations or complex methodologies, Rooted simplifies the process with stealth addresses and Rooted IDs, making it more accessible and user-friendly.
 
-#### ✒ What it will do or Technical Description
+### ✒ What it does or Technical Description
 - Stealth Addresses: Rooted utilizes stealth addresses, which are derived from elliptic curve key pairs. The public part of the key pair serves as the Rooted ID, a meta-address not tied to any actual blockchain address. This Rooted ID is shared by users to receive funds without revealing their real addresses.
 
 - Rooted ID Generation: Users can generate multiple Rooted IDs, storing the key for future use. This allows them to have different Rooted IDs for different transactions or purposes, enhancing privacy. The generation process follows the principles outlined in Vitalik's article on stealth addresses.
@@ -66,17 +71,17 @@ Rooted is a non-custodial solution that uses stealth addresses which will allow 
 
 - Addressing Privacy Concerns: Rooted addresses the problem of privacy in blockchain transactions by providing a user-friendly solution that allows individuals and businesses to receive funds without revealing their real addresses. By utilizing stealth addresses and Rooted IDs, Rooted ensures that transaction details remain private and reduces the risk of identity exposure and financial profiling.
 
-#### 👥 Intended Users
+### 👥 Intended Users
 - The intended users of Rooted would be anyone who values privacy in their transactions and wants to keep their identity hidden. This could include individuals who want to keep their financial transactions private, businesses that want to protect their financial information, or anyone who wants to avoid the risks associated with revealing their identity in a transaction.
 - Rooted will be designed to be user-friendly for both power and non-power users, making it accessible to a wide range of people.
 
-#### 💹 Market Analysis
+### 💹 Market Analysis
 - Rooted's solution addresses a significant market opportunity by providing privacy in blockchain transactions. Privacy has become a crucial concern in the blockchain industry as individuals and businesses increasingly recognize the risks associated with transparent transactions. By offering a user-friendly and accessible solution, Rooted taps into a growing demand for privacy-enhancing tools in the blockchain space.
 - The Total Addressable Market (TAM) for Rooted's solution is substantial. As blockchain technology continues to gain adoption across industries, the need for privacy in transactions becomes more prevalent. Individuals who value financial privacy, businesses seeking to protect sensitive financial information, and anyone concerned about the risks of identity exposure in transactions represent a wide range of potential users for Rooted.
 - Rooted differentiates itself from incumbent competitors by providing a simpler and more cost-effective solution. Existing privacy-focused blockchains like Monero require specialized tools and incur higher costs, making them less accessible to mainstream users. Rooted bridges the gap between complex and expensive privacy solutions and non-private transfers, offering a user-friendly option with its stealth address implementation. The ease of generating Rooted IDs and utilizing stealth addresses sets Rooted apart from incumbent competitors.
 - Furthermore, Rooted leverages the Rootstock Blockchain, which provides fast and affordable transactions. This strategic choice enhances the scalability and usability of the solution, making it attractive to users who prioritize transaction speed and cost-efficiency.
 
-#### 💻 Project Plan
+### 💻 Project Plan
 - Development and Testing: The first step is to develop the Rooted solution and the necessary smart contracts on the Rootstock Blockchain. The development team will use tools like Solidity and Hardhat to build and test the functionality of Rooted, ensuring its effectiveness and security.
 
 - UI/UX Design: Simultaneously, a user-friendly and intuitive UI/UX will be designed using technologies such as React and TypeScript. The focus will be on creating a seamless and engaging experience for both power users and non-power users, making it accessible to a wider audience.
@@ -95,10 +100,19 @@ Rooted is a non-custodial solution that uses stealth addresses which will allow 
 
 By following this plan, Rooted aims to build a strong presence in the market, attract a significant user base, and become a trusted and widely adopted solution for privacy in blockchain transactions.
 
-#### ⚔ Challenges
-- The main challenge we believe will be designing the best possible user experience, as for mass adoption it should be as simple as it can be to use.
+### ⚔ Challenges
+- The main challenge was designing the best possible user experience, which we believe the current implementation achieves.
+- Another challenge was signing and sending withdrawal transactions without using the connected user wallet. We resolved this by creating a custom-built transaction broadcasted via public RPC URLs, which works effectively.
 
-#### 👥Team and Resources
+### ☄️ What's next?
+- Currently, Rooted only supports native coin transfers(RBTC). However, adding support for tokens and NFTs would greatly enhance its utility. We are considering implementing relayer nodes to mint and sell notes as tokens (or NFTs) in exchange for covering user fees on transfers.
+- This approach allows users to maintain their anonymity while using note tokens to request relayers to cover fees and pay for transactions. Competition between relayers could help keep transfer fees reasonable.
+- Deploying Rooted to Rootstock Mainnet as soon as possible 😉.
+- Expanding Rooted in the Ethereum Ecosystem and also enabling cross-chain transactions. Additionally, gas optimization in the Registry contract and its interaction with the receiving side can be improved.
+- Obtaining a legal opinion on Rooted's regulatory compliance would be beneficial. However, since the Registry is on the blockchain and the code is available on GitHub, funds will remain accessible even if the website is shut down.
+- Future UX improvements include notifications for funds received on new controlled stealth addresses and a mobile app (although the website is mobile-friendly). The possibilities are endless!
+
+### 👥Team and Resources
 - Team Members:
     - Shubham Gupta: Full-Stack Blockchain Developer with a strong knack for Entrepreneurship. Shubham will bring technical expertise and leadership to the development and implementation of Rooted.
     - [Twitter](https://twitter.com/0xmysticShub)
@@ -115,8 +129,49 @@ By following this plan, Rooted aims to build a strong presence in the market, at
     - User Support and Education: Resources will be allocated to providing user support and education, including documentation, tutorials, FAQs, and a responsive support system. These resources will ensure that users have the necessary guidance to understand and utilize Rooted effectively.
     - Compliance and Legal Resources: Resources will be allocated to ensure compliance with relevant regulations and legal frameworks. This may involve legal counsel and compliance experts to address any privacy-related concerns and navigate the regulatory landscape.
 
-#### 🌟 Conclusion
+### 🌟 Conclusion
 - Rooted is a user-friendly and innovative solution that addresses the growing need for privacy in blockchain transactions. By leveraging stealth addresses and the Rootstock Blockchain, Rooted provides a simple and cost-effective way for users to keep their financial transactions private. With a substantial market opportunity and a focus on usability, Rooted has the potential to become a leading privacy solution in the blockchain industry.
+
+### 💪 Deployed Contract Addresses (Rootstock Testnet)
+- Registry Contract: [0xE7F7067C9ECab27c5f7f13e02b13eD50931f6d0F](https://explorer.testnet.rsk.co/address/0xe7f7067c9ecab27c5f7f13e02b13ed50931f6d0f)
 
 ### 🚫 License
 This repository includes an [unlicensed](http://unlicense.org/) statement.
+
+### 💻 Deploying the Rooted on local machine
+
+Clone the repository
+
+move into the frontend folder
+
+```sh
+cd frontend
+```
+
+install dependencies using **yarn** or **npm**
+
+```sh
+yarn
+
+or
+
+npm install
+```
+
+start the development server
+```sh
+yarn start
+
+or
+
+npm start
+```
+
+build with production mode
+```sh
+yarn build
+
+or
+
+npm run build
+```
