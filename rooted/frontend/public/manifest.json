@@ -1,0 +1,25 @@
+{
+  "short_name": "Rooted",
+  "name": "Rooted",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg"
+    },
+    {
+      "src": "logo192.svg",
+      "type": "image/svg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.svg",
+      "type": "image/svg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ff9100",
+  "background_color": "#10121f"
+}
