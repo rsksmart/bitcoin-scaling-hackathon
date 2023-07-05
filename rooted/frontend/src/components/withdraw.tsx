@@ -232,7 +232,6 @@ export function Withdraw() {
       config.request = {
         ...config.request,
         from: addr,
-        type: 1,
         value: originalBalance.sub(fee),
         gasPrice: gasPrice,
       };
