@@ -218,11 +218,7 @@ export function Withdraw() {
 
       const connectedSigner = await connector?.getSigner();
       const gasPrice = await connectedSigner.getGasPrice();
-      /*const feeData = await provider.getFeeData();
-      const gasPrice = feeData.maxFeePerGas as BigNumber;
-      console.log(feeData);*/
 
-      //const fee = (gasLimit.mul(gasPrice)).add(1000000000);
       const fee = gasLimit.mul(gasPrice);
       /* .mul(BigNumber.from(3))
         .div(BigNumber.from(2)); */
@@ -236,7 +232,7 @@ export function Withdraw() {
       config.request = {
         ...config.request,
         from: addr,
-        //type: 1,
+        type: 1,
         value: originalBalance.sub(fee),
         gasPrice: gasPrice,
       };
