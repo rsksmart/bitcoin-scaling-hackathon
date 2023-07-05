@@ -3,10 +3,10 @@
 Rooted is a non-custodial solution that uses stealth addresses which will allow users to receive funds on Rootstock Blockchain without revealing receivers real address.
 
 ### 💻 Live Site
-[Rooted Platform]()
+[Rooted Platform](https://bitcoin-scaling-hackathon-cd45ea.spheron.app/)
 
 ### 📺 Video Demo
-
+https://youtu.be/8JxsiXD0FQc
 
 ## 📝 Project Description
 
