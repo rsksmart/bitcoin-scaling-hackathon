@@ -1,4 +1,3 @@
-- A written proposal outlining the idea and its potential impact on the web3/Bitcoin/Rootstock ecosystem
     - **Executive Summary**
     
     Wooy is an innovative platform that is disrupting the traditional landscape of charitable fundraising. By harnessing the power of blockchain technology and RSK's infrastructure, Wooy introduces Proof of Donation NFTs (PODs) to incentivize companies and individuals to make a social impact. Our solution not only enhances brand reputation but also attracts new customers and optimizes corporate social responsibility (CSR) budgets, improving their ESG performance.
