@@ -13,10 +13,11 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     const arguments = [
         governanceToken.address, 
         timeLock.address, 
-        // QUORUM_PERCENTAGE, 
-        // VOTING_PERIOD, 
-        // VOTING_DELAY
+        QUORUM_PERCENTAGE, 
+        VOTING_PERIOD, 
+        VOTING_DELAY
     ];
+    
     const waitBlockConfirmations = developmentChains.includes(network.name) ? 1 : 5; 
     log("----------------------- DEPLOYING GOVERNANCE CONTRACT ----------------------------")
 

@@ -113,6 +113,12 @@ module.exports = {
                 version: "0.4.24",
             },
         ],
+        settings: {
+            optimizer: {
+                enabled: true, 
+                runs: 200
+            }
+        }
     },
     mocha: {
         timeout: 500000, // 500 seconds max for running tests
