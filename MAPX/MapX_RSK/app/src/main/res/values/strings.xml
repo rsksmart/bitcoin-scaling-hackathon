@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MapX</string>
+    <string name="title_activity_maps">MapX</string>
+    <string name="heading">Map<font color='#D94328'>X</font></string>
+    <string name="check">50px</string>
+
+</resources>

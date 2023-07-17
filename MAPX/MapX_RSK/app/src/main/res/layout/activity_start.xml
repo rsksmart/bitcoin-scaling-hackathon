@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:id="@+id/reltive"
+        android:background="@color/colorFigma"
+        tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="513dp"
+        android:background="@drawable/roundimage"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/spaceexplore" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="-19dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/heading"
+        android:textColor="@color/pink"
+        android:textColorHighlight="@color/pink"
+        android:textColorHint="@color/blue"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/klaytn"
+        android:layout_width="197dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-17dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/rsk" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/klaytn"
+
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppins"
+        android:text="Explore the World,\n one NFT at Time "
+        android:textColor="#FFFAFA"
+        android:textSize="24dp" />
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorFigma"
+        tools:context=".PrivateActivity">
+
+    <TextView
+            android:id="@+id/locationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="101dp"
+            android:layout_marginRight="79dp"
+            android:layout_marginEnd="10dp"
+            android:text="Enter Your Location"
+            android:textColor="#EAF9D9"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins" />
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/loginEmailLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#333851"
+            android:layout_below="@id/locationLabel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="123dp"
+            app:boxStrokeColor="#CCC7B9">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/privatekey"
+                android:fontFamily="@font/poppins"
+                android:layout_width="230dp"
+                android:textColor="#EAF9D9"
+                android:textColorHint="#EAF9D9"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Public Key"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/latLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#333851"
+            android:layout_below="@id/loginEmailLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            app:boxStrokeColor="#CCC7B9">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/lat"
+                android:fontFamily="@font/poppins"
+                android:layout_width="230dp"
+                android:textColor="#EAF9D9"
+                android:textColorHint="#EAF9D9"
+                android:layout_height="wrap_content"
+                android:hint="Enter The Latitude"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/longLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#333851"
+            android:layout_below="@id/latLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            app:boxStrokeColor="#CCC7B9">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/longtitude"
+                android:fontFamily="@font/poppins"
+                android:layout_width="230dp"
+                android:textColor="#EAF9D9"
+                android:textColorHint="#EAF9D9"
+                android:layout_height="wrap_content"
+                android:hint="Enter The Longitude"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+            android:id="@+id/submit"
+            android:background="#D94328"
+            android:layout_below="@id/longLayout"
+            android:layout_centerHorizontal="true"
+            android:text="SUBMIT"
+            android:layout_width="307dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="157dp"
+            android:textColor="#EAF9D9"
+            android:fontFamily="@font/poppins"
+            tools:ignore="TextContrastCheck" />
+</RelativeLayout>
