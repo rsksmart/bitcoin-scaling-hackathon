@@ -1,7 +1,7 @@
 import express from 'express';
 const app = express();
 import mongoose from "mongoose"
-const port = 8080;
+const port = 3000;
 import path from 'path';
 import * as url from 'url';
 import { UsuarioRegister } from './public/usuarios/Usuarios.js';
@@ -25,7 +25,7 @@ app.get('/mint', callSafeMint)
 
 //Conexion DB Mongo
 
-mongoose.connect("mongodb+srv://fedec123:fedec123@cluster0.vrgmt0m.mongodb.net/?retryWrites=true&w=majority").then(() => console.log ("Base de datos conectada"))
+mongoose.connect("mongodb+srv://Atlantium:wooy159357@wooy.bavdtdi.mongodb.net/?retryWrites=true&w=majority").then(() => console.log ("Base de datos conectada"))
 
 app.listen(port, (err) => {
     if(!err){
