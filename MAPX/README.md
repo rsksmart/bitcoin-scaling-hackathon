@@ -108,3 +108,11 @@ We Need support and contacts with vendors, businesses and restaurants for testin
 ## Check  Deployed smart contract explorer testnet
 
 https://explorer.testnet.rsk.co/address/0x95185db5adec7974309c1e73062ec7cace678f27?__ctab=general
+
+## Checkout our presentation 
+
+https://drive.google.com/file/d/11wWJcb28bRk-01bgi2cGfA6dRg4ZGdkB/view?usp=sharing
+
+## Checkout our website
+
+https://mapx255.netlify.app/
