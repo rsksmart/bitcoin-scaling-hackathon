@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 32
+    defaultConfig {
+        applicationId "com.example.pockemon_newer"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    signingConfigs {
+        release {
+            storePassword 'Ruchi@42333'
+            storeFile file('E:\\bwc\\celo\\build-with-celo-hackathon\\MAPX\\MapX_Celo\\my-release-key.keystore')
+            keyPassword 'Ruchi@42333'
+            keyAlias 'key0'
+        }
+    }
+    buildTypes {
+
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //noinspection GradleCompatible
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+
+
+
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.android.material:material:1.0.0'
+    // the core library
+    implementation 'com.utsman.smartmarker:core:1.3.2@aar'
+
+// extension for google maps
+    implementation 'com.utsman.smartmarker:ext-googlemaps:1.3.2@aar'
+    implementation 'com.utsman.smartmarker:ext-location:1.2.5@aar'
+
+// for extensions watcher location, you need some library with latest versions
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'pl.charmas.android:android-reactive-location2:2.1@aar'
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.12'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.karumi:dexter:6.0.0'
+    //noinspection GradleCompatible
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
