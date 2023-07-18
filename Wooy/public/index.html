@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8aef54506b.js"
+      crossorigin="anonymous"
+    ></script>
+    <style type="text/css">
+      @font-face {
+        font-weight: 400;
+        font-style: normal;
+        font-family: circular;
+
+        src: url("chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Regular.woff2")
+          format("woff2");
+      }
+
+      @font-face {
+        font-weight: 500;
+        font-style: normal;
+        font-family: circular;
+
+        src: url("chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Medium.woff2")
+          format("woff2");
+      }
+
+      @font-face {
+        font-weight: 700;
+        font-style: normal;
+        font-family: circular;
+
+        src: url("chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2")
+          format("woff2");
+      }
+
+      @font-face {
+        font-weight: 900;
+        font-style: normal;
+        font-family: circular;
+
+        src: url("chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Black.woff2")
+          format("woff2");
+      }
+    </style>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Wooy</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="/"
+            ><img
+              style="border-radius: 4px"
+              src="../images/logo.png"
+              alt="company logo"
+              width="150"
+              height="50"
+          /></a>
+        </div>
+        <div class="navbar-links">
+          <ul>
+            <li>
+              <a href="javascript:void(0)" onclick="scrollToElement('whatIs')"
+                >What is Wooy</a
+              >
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="scrollToElement('whatAre')"
+                >What are Pods</a
+              >
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="scrollToElement('partners')"
+                >Partners</a
+              >
+            </li>
+            <div class="navbar-buttons-mobile">
+              <button
+                class="btn-check-pods"
+                id="search-button"
+                onclick="scrollToElement('webB')"
+              >
+                Check your Pods
+              </button>
+              <button class="btn-connect-metamask" id="connect-button">
+                Connect with Metamask
+              </button>
+            </div>
+          </ul>
+        </div>
+        <div class="navbar-buttons">
+          <button
+            class="btn-check-pods"
+            id="search-button"
+            onclick="scrollToElement('webB')"
+          >
+            Check your Pods
+          </button>
+          <button class="btn-connect-metamask" id="connect-button">
+            Connect with Metamask
+          </button>
+        </div>
+        <div class="navbar-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="heroBanner">
+        <h1 style="font-size: 120px; font-weight: 700">WOOY.</h1>
+        <h2 style="font-size: 60px; font-weight: 500; max-width: 60%">
+          We develop technology to inspire everyone to make an impact
+        </h2>
+      </div>
+
+      <div class="statsBar">
+        <span style="background-color: var(--primary)"
+          >1.183
+          <span style="background-color: var(--secondary)"> PODs</span></span
+        >
+        <span style="background-color: var(--primary)"
+          >23
+          <span style="background-color: var(--secondary)">
+            Partners</span
+          ></span
+        >
+        <span style="background-color: var(--primary)"
+          >255
+          <span style="background-color: var(--secondary)"> Members</span></span
+        >
+      </div>
+      <img
+        class="svgDesktop"
+        style="position: absolute; z-index: -1; margin-top: 30px"
+        width="300"
+        src="../images/vector1.svg"
+        alt=""
+      />
+
+      <div class="divisor" style="height: 50px"></div>
+      <div class="whatIs" id="whatIs">
+        <h2 style="font-size: 30px; margin-bottom: 50px">What is WOOY</h2>
+        <img
+          style="
+            position: absolute;
+            z-index: -1;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            transform: rotate(60deg);
+            margin-top: -140px;
+          "
+          width="200"
+          src="../images/vector3.svg"
+          alt=""
+        />
+        <div class="divisor" style="height: 100px"></div>
+        <div class="cardsWhat">
+          <div class="cardWhat" data-aos="fade-up">
+            <h2>
+              At Wooy, we work with NGOs to reward and engage donors by gifting
+              them unique NFT PODs (Poof Of Donations).
+            </h2>
+          </div>
+          <img
+            data-aos="fade-up"
+            class="svgDesktop"
+            style="
+              position: absolute;
+              z-index: -1;
+              margin-left: auto;
+              margin-right: auto;
+              left: 62%;
+              right: 0;
+            "
+            width="200"
+            src="../images/vector2.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="divisor" style="height: 20px"></div>
+      <img
+        class="svgDesktop"
+        style="
+          position: absolute;
+          z-index: -1;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+        "
+        width="100%"
+        src="../images/vector7.svg"
+        alt=""
+      />
+      <img
+        class="svgMobile"
+        style="
+          position: absolute;
+          z-index: -1;
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+        "
+        width="100%"
+        src="../images/vector2.svg"
+        alt=""
+      />
+      <div class="divisor" style="height: 100px"></div>
+      <div class="whatAre" id="whatAre">
+        <h2 style="font-size: 30px" class="whatAreTitle">What are PODs?</h2>
+        <div class="cardsHow">
+          <div class="cardHow" id="cardhow1" data-aos="fade-right">
+            <h2>
+              PODs are non-fungible tokens that represent proofs of donations
+              made to the NGOs we work with.
+            </h2>
+          </div>
+          <img
+            class="svgMobile"
+            style="
+              position: absolute;
+              z-index: -1;
+              margin-left: auto;
+              margin-right: auto;
+              left: 0;
+              right: 70%;
+              margin-top: 300px;
+            "
+            width="200"
+            src="../images/vector4.svg"
+            alt=""
+          />
+          <i
+            data-aos="fade-up"
+            class="arrowIcon fa-solid fa-arrow-right"
+            style="display: flex; align-items: center; justify-content: center"
+          ></i>
+          <div class="cardHow" id="cardhow2" data-aos="fade-left">
+            <h2>
+              Each POD is unique and represents a specific donation made by a
+              donor.
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="divisor" style="height: 100px"></div>
+      <div class="webB" id="webB">
+        <div class="webBHeader">
+          <h2>Your PODS</h2>
+          <div>
+            <input
+              id="search-input"
+              type="text"
+              placeholder="Email"
+              style="height: 48px; border-radius: 4px; font-size: 18px"
+            />
+            <button id="search-button" onclick="filtradoPods()">Search</button>
+          </div>
+        </div>
+
+        <div class="webBBody">
+          <div
+            class="podsContainer"
+            id="pods-container"
+            style="display: none"
+          ></div>
+        </div>
+      </div>
+      <div class="divisor" style="height: 100px"></div>
+      <div id="partners" style="height: 100px"></div>
+      <div class="containerPartners">
+        <div class="partners" style="padding-bottom: 50px">
+          <h2 style="font-size: 30px">
+            Partner <span style="color: var(--primary)">with us</span>
+          </h2>
+          <h3>
+            We combine crypto users, fiat users, companies and impact
+            initiatives working together!
+          </h3>
+          <div class="bothContainers">
+            <div class="cta-container">
+              <div class="cta-content">
+                <h2 style="color: var(--secondary)">NGOs</h2>
+                <p>If you are an NGO, we would love to work together!</p>
+                <ul>
+                  <li>Increase visibility and reach</li>
+                  <li>
+                    We take care of the technology.
+                  </li>
+                </ul>
+                <a
+                  href="mailto:hello@wooy.co"
+                  style="color: var(--secondary); font-weight: bold"
+                  >Contact us</a
+                >
+              </div>
+              <img
+                src="../images/ngos.png"
+                alt="NGO"
+                style="border-radius: 25px"
+              />
+            </div>
+            <div class="cta-container">
+              <img
+                src="../images/sponsors.png"
+                alt="NGO"
+                style="border-radius: 25px"
+              />
+              <div class="cta-content">
+                <h2 style="color: var(--primary)">Sponsors</h2>
+                <p>Partner with us to generate innovative impact campaigns</p>
+                <ul>
+                  <li>Show the sustainable side of your brand</li>
+                  <li>
+                    Use the same CSR budgets while creating unique marketing
+                    campaigns and generating even more donations.
+                  </li>
+                </ul>
+                <a
+                  href="mailto:hello@wooy.co"
+                  style="color: var(--primary); font-weight: bold"
+                  >Contact us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-distributed">
+      <div class="footer-right">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+      </div>
+
+      <div class="footer-left">
+        <p><img src="../images/footerLogo.png" alt="" width="50" /></p>
+      </div>
+    </footer>
+    <script src="js/metamaskConnect.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+      function filtradoPods() {
+        document
+          .getElementById("search-button")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+          });
+        $(document).ready(function () {
+          $.ajax({
+            url: "/users",
+            type: "GET",
+            success: function (arrayUsers) {
+              $(".podsContainer").empty();
+              $(".podsContainer").css("display", "flex");
+              const valorSearch = document.getElementById("search-input").value;
+              const filtrados = arrayUsers.filter(
+                (dato) => dato.email === valorSearch
+              );
+
+              if (filtrados.length > 0) {
+                for (let x = 0; x < filtrados.length; x++) {
+                  const imagen_token = filtrados[x].token_img;
+                  const url_site = filtrados[x].site_url;
+                  const nombre_token = filtrados[x].token_name;
+                  $(".podsContainer").append(
+                    `<div class="appeneados" id="appeneados">
+                      <a href="pages/ongs${url_site}.html">
+                      <img style="width:100px;height:100px" src='${imagen_token}'>
+                      <p style="text-align:center">${nombre_token}</p>
+                      </a>  
+                    </div>`
+                  );
+                }
+              } else {
+                $(".podsContainer").append(
+                  `<p>No hay ningun pod asociado al Email</p>`
+                );
+              }
+            },
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
