@@ -2,11 +2,8 @@
 
 ![wooy](https://ipfs.io/ipfs/Qmb7mU9CiYr8dMNpUf1TZzapcZeNPHYaf6XzZ1aQRUU44U)
 
-### **In Wooy, your help is rewarded with an exclusive POD (Proof of Donation). A unique piece of art designed especially for you.**
+### **Wooy is a platform that revolutionizes charitable fundraising by leveraging blockchain technology and Non-Fungible Tokens (NFTs) to drive social and environmental impact. It provides companies, NGOs, streamers, and individual users with innovative tools to create, track, and reward donations, fostering transparency, engagement, and positive change.**
 
-### **What is it for?**
-
-It is a digital certificate of your support for a charitable cause. Everyone who has contributed to an impactful cause can obtain it.
 
 ---
 
