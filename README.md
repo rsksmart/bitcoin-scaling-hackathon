@@ -32,8 +32,8 @@ To start the web page, follow these steps:
 
 If you have followed these steps correctly, the web page should operate fully.
 
-To deploy the smart contract and mint the NFTs you can go to the folder "erc1155-pod"
-
+> To deploy the smart contract and mint the NFTs you can go to the folder "erc1155-pod"
+>
 ---
 
 ### **Usage**
