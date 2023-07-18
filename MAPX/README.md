@@ -3,7 +3,7 @@
 ### Team name :- MapX
 
 
-##### Team Members
+#### Team Members
 - Abhijeet Singh (Leader) back-end, front-end, android-development
 - Yogesh Kute front-end, ui-ux, blockchain
 
@@ -45,9 +45,9 @@ b) This serves as a marketing tool for businesses to drive foot traffic while pr
 Opportunity
 
 
-Target audience
+## Target audience
 
-Crypto Projects, Firms and Communities.
+#### Crypto Projects, Firms and Communities.
 
 Our main audience is crypto projects, firms and communities. They can choose to mint NFTs that Crypto projects, are tied to physical locations, allowing players to collect them at the location. These NFTs can have future economic or sentimental utilities. This serves firms and as a marketing tool to help engage their respective communities, at the same time providing an communities element of gamification to their project.
 
@@ -55,7 +55,7 @@ Our audience can also choose to mint NFTs for special events at certain location
 
 Our secondary audience is retail businesses. They can utilize the MapX platform as a Retail marketing tool to drive foot traffic. They do this by issuing NFT vouchers. This can be done by Businesses setting up a redemption point in or near their stores. All they have to do is to shake their phone with the Encrypt app on tablets or smartphones and a token will be marked as used. This reduces the operating costs associated with needing to have a spare tablet or smartphone.Consumers can then spend the NFT effectively “burning” it. On top of NFT vouchers, businesses can also issue NFT collectables as well as art pieces. Compared to traditional marketing tools, Encrypt provides several advantages to businesses.
 
-Guarantee foot traffic/high conversion rate.
+#### Guarantee foot traffic/high conversion rate.
 
 Since consumers have already made the effort to redeem the NFT vouchers physically, they are Guaranteed foot highly likely to spend those vouchers on the spot. A scenario is that hungry players would traffic/high scan the MapX app for possible food deals, and redeem the NFT voucher that would bring the highest utility/suit the player’s taste preferences.conversion rate. They would then use those vouchers on the spot to purchase from businesses.
 
@@ -65,13 +65,13 @@ MapX promotes businesses for free through the browse function. This is where use
 
 Providing an existing pool of users who are ready to venture out and collect NFTs. Thus providing businesses with potential consumers to be converted
 
-Business
+## Business
 
-Artists
+#### Artists
 
 Artists can use MapX to tokenize both physical as value well as digital artworks. They can then give these artworks away or auction them off through the platform . MapX offers an intuitive user interface
 
-Players
+#### Players
 
 Players are users who collect NFTs using the MapX app
 
@@ -79,11 +79,11 @@ Players are users who collect NFTs using the MapX app
 
 • Transparent. Using the XDCand Filecoin blockchain, NFTs minted can be traced and observed by everyone XDC BLOCKCHAIN
 
-Architecture
+#### Architecture
 
 <img src='./screenshot/arch.jpg' />
 
-Why ROOTSTOCK : 
+#### Why ROOTSTOCK : 
 
 <img src='./screenshot/logo.jpg' />
 
@@ -96,7 +96,7 @@ Why ROOTSTOCK :
 <img src='./screenshot/prot44.jpg' />
 
 
-#### URLs
+#### Demo Video
 [(https://youtu.be/pKeIbdTV1rM)](https://youtu.be/pKeIbdTV1rM)
 
 #### Next Steps
@@ -107,6 +107,6 @@ We Need support and contacts with vendors, businesses and restaurants for testin
 
 2) Catch all the NFTs
 
-## Deployed smart contract explorer testnet
+## Check  Deployed smart contract explorer testnet
 
 https://explorer.testnet.rsk.co/address/0x95185db5adec7974309c1e73062ec7cace678f27?__ctab=general
