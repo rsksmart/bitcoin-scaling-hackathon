@@ -142,6 +142,12 @@ This repository includes an [unlicensed](http://unlicense.org/) statement.
 
 Clone the repository
 
+move into the rooted folder
+
+```sh
+cd rooted
+```
+
 move into the frontend folder
 
 ```sh
@@ -175,3 +181,5 @@ or
 
 npm run build
 ```
+
+** Note: The amount of RBTC in Recievers Wallet should be greater than the amount of RBTC sent by the Sender
