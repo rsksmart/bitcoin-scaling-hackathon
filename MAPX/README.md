@@ -77,8 +77,6 @@ Players are users who collect NFTs using the MapX app
 
 • Transferable vouchers. Traditional E- vouchers are often restricted to the person intended. Oftentimes, these vouchers are left unspent due to neglect,resulting in wastage.• Non-perishability. Traditional physical vouchers are susceptible to damage , making them a hassle to store. NFT vouchers are stored digitally in the player’s wallet,making them non-perishable
 
-• Transparent. Using the XDCand Filecoin blockchain, NFTs minted can be traced and observed by everyone XDC BLOCKCHAIN
-
 #### Architecture
 
 <img src='./screenshot/arch.jpg' />
