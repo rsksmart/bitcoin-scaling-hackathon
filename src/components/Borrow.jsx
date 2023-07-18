@@ -463,17 +463,23 @@
 //   }
 
 
-import React, { useState, useContext } from "react";
+import React, { useState, useContext , useEffect } from "react";
 import { ethers } from "ethers";
 import { Signercontext, HiroWalletcontext } from "../ContextApi";
 import TreasuryJSON from "../utils/Treasury.json";
 import TreasuryAddress from "../utils/TreasuryAddress";
 import { Box, Button, Flex, Heading, Image, Input, Text } from "@chakra-ui/react";
-
+import LendingJSON from "../utils/Lending.json"
+import LendingAddress from "../utils/TreasuryAddress";
 export default function Borrow() {
   const { signer } = useContext(Signercontext);
   const { add } = useContext(HiroWalletcontext);
   const TreasuryContract = new ethers.Contract(TreasuryAddress, TreasuryJSON.abi, signer);
+  const LendingContract =  new ethers.Contract(
+    LendingAddress,
+    LendingJSON.abi,
+    signer
+    );
 
   const [showModal, setShowModal] = useState(false);
   const [id, setId] = useState("");
@@ -494,8 +500,13 @@ export default function Borrow() {
     setShowModal(true);
   };
 
-  const handleOrdinalSelection = (ordinalId) => {
-    console.log("Selected Ordinal:", ordinalId);
+  const handleOrdinalSelection = (ordinal,e) => {
+    e.preventDefault()
+    setShowModal(false)
+    console.log("Selected Ordinal:", ordinal);
+    setId(ordinal.id);
+    setAdd(ordinal.address);
+    setsatNum(ordinal.sat_ordinal);
   };
 
   const collectOrdinals = async () => {
@@ -514,16 +525,6 @@ export default function Borrow() {
       });
   };
 
-  const handleSelectOrdinal = async (e) => {
-    collectOrdinals();
-
-    if (ordinals.length > 0) {
-      const selectedOrdinal = ordinals[0];
-      setId(selectedOrdinal.id);
-      setAdd(selectedOrdinal.address);
-      setsatNum(selectedOrdinal.sat_ordinal);
-    }
-  };
 
   const processLoan = async (e) => {
     e.preventDefault();
@@ -532,8 +533,20 @@ export default function Borrow() {
     } catch (error) {
       alert("Error in sending transaction");
     }
+    try {
+      await LendingContract.requestForLoan(ordVal * 10 ** 18);
+    } catch (error) {
+      alert("Error in sending transaction");
+    }
   };
-
+  const fakeFund =async()=>{
+     let tx = await TreasuryContract.fakeFund({value:ethers.parseUnits("0.02",18)})
+  
+     }
+    //  fakeFund()
+useEffect(()=>{
+  collectOrdinals();
+},[add])
   return (
     <div>
       <Flex mt={30}>
@@ -626,21 +639,9 @@ export default function Borrow() {
             </Box>
           </Flex>
           <Flex alignItems="center" mb={2}>
-            <Text flexShrink={0}>Borrowing time (in blocks):</Text>
+            <Text flexShrink={0}>Borrowing time</Text>
             <Text>(144 blocks/day)</Text>
             <Box ml="auto">
-              <Input
-                display="flex"
-                width={162}
-                height={48}
-                padding="15px 20px"
-                alignItems="center"
-                gap={10}
-                flexShrink={0}
-                borderRadius={5}
-                border="2px solid #000"
-                background="#FFF"
-              />
             </Box>
           </Flex>
 
@@ -683,7 +684,7 @@ export default function Borrow() {
                 {ordinals.map((ordinal) => (
                   <Flex key={ordinal.id} alignItems="center" mt={4}>
                     <Image
-                      src={ordinal.imageUrl}
+                      src={`https://ordinals.com/content/${ordinal.id}`}
                       alt=""
                       w={40}
                       h={40}
@@ -704,7 +705,7 @@ export default function Borrow() {
                   background="#FEC34A"
                   cursor="pointer"
                   mt={4}
-                  onClick={() => handleOrdinalSelection(ordinals[0].id)}
+                  onClick={(e) => handleOrdinalSelection(ordinals[0],e)}
                 >
                   Select
                 </Button>

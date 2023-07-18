@@ -60,7 +60,6 @@ export default function Main() {
       </Flex>
       </Box>
       </Box>
-      
       <main className="row align-items-start">
         <Signercontext.Provider value={{ signer }}>
           <HiroWalletcontext.Provider value={{ add }}>

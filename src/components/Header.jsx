@@ -16,7 +16,6 @@ export default function Header({ sendSigner }) {
       // }
       sendSigner(signer);
   }
-
     // const provider = new ethers.providers.Web3Provider(window.ethereum);
     // const signer = provider.getSigner();
     // sendSigner(signer);
