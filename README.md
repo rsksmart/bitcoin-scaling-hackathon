@@ -1,48 +1,77 @@
-# Rootstock: Bitcoin Scaling Hackathon
-Repository for "Rootstock: Bitcoin Scaling Hackathon" submissions
+# Bitcoin Scaling Hackthon: Wooy
 
-# Submission process
+![wooy](https://ipfs.io/ipfs/Qmb7mU9CiYr8dMNpUf1TZzapcZeNPHYaf6XzZ1aQRUU44U)
 
-In order to submit a project, follow these steps:
+### **In Wooy, your help is rewarded with an exclusive POD (Proof of Donation). A unique piece of art designed especially for you.**
 
-1- Fork this repository
+### **What is it for?**
 
-2- Create a folder with your project name and include every deliverable of your project inside it
+It is a digital certificate of your support for a charitable cause. Everyone who has contributed to an impactful cause can obtain it.
 
-3- Submit a PR. This is what will be reviewed during the judging stage.
+---
 
+### **Installation:**
 
-## Submission details
+To use this application, you must first clone this repository to your local machine.
 
-### Phase I: Ideathon
+> git clone https://github.com/Javpod/Wooy-bitcoin-Scaling-Hackathon.git
+> 
 
-* A written proposal outlining the idea and its potential impact on the web3/Bitcoin/Rootstock ecosystem
-  * Executive Summary
-  * Project Overview:
-    * A clear and concise summary of the project.
-    * Overview of the project include:
-      * Problem you are solving
-      * The solution
-      * Potential Impact
+Then make sure you have the following tools installed:
 
-* Background & Context:
-  * Use this section to provide background information and insight into the problem your project is addressing.
-  * Explain why the problem you’re tackling is important.
-* Value Proposition
-  * Outline the value proposition of your solution. Explain why it is innovative, effective or better than existing solutions.
-  * Highlight the key benefits to your target audience.
-* Technical Description
-  * At this stage, you do not need to provide the code base.
-  * Provide a technical description of your project. Cover key features and functionalities.
-  * Explain how your solution works on Rootstock, what RIF (if any) technologies you are leveraging and how it addresses the problem you are solving.
-* Market Analysis
-  * Provide a lite-analysis on the market opportunity your problem is solving.
-  * How is your solution addressing a large market (TAM)?
-  * How is your solution better than incumbent competitors?
-* Project Plan
-  * What is your plan to bring your idea to market?
-* Team & Resources
-  * Team Members
-  * Team-Market Fit
-  * What resources will you need and utilize?
-* Conclusion
+- Visual Studio Code
+- Node.JS
+
+To start the web page, follow these steps:
+
+1. Open a terminal and navigate to the folder where you cloned this repository.
+2. Run **`npm install`** to install the required dependencies, including express, mongoose, web3, mongoDB, nodemon, and dotenv.
+3. Run **`npm start`** to start the application.
+4. Access the local domain through the URL: **`https://localhost:3000`**
+5. If you want to emulate a database that represents the information provided by NGOs, access the local domain: **`https://localhost:3000/register`** and complete the form.
+
+If you have followed these steps correctly, the web page should operate fully.
+
+---
+
+### **Usage**
+
+Below, we will detail how to use the project and access its functionalities.
+
+We work with NGOs to gift NFT PODs (Proof of Donations) to donors on their platforms, thus fostering loyalty. The NGO sends us a ***database*** with the emails of their donors, and we mint the POD to our wallet and link it to their ***email***. Users can view their POD on our website and, if desired, transfer it to their wallet.
+
+We will provide exhaustive steps of the process to deepen your understanding of the project.
+
+1. An NGO joins our initiative.
+2. We implement the smart contract in Hardhat.
+3. The NGO provides us with their donor database via email on a weekly basis (provided that the user accepts their email being shared in a Wooy database).
+4. We generate a hash of the received emails.
+5. If our database consists of, for example, 5 emails, we create 5 unique tokens called PODs, each associated with its corresponding email hash.
+6. An email with the POD is sent to the user, inviting them to claim it on the Wooy website.
+7. Users can access the website and search for their POD by entering their email in the corresponding search field.
+8. Once found, the user can choose to transfer their POD to their digital wallet by completing the POD transfer request form through the following link:
+
+> www.localhost:3000/pages/ongs/{POD-name}.html
+> 
+1. In the form, the user must provide their email and wallet information to complete the transfer.
+2. WOOY transfers the requested POD from the organization's wallet to the user's wallet using a unique identification code.
+
+---
+
+### **Built with:**
+
+- Hardhat
+- Web3
+- Visual Studio Code
+- Node.JS
+- MongoDB
+- Bootstrap
+- jQuery
+- Ajax
+
+### **Authors**
+
+- Joaquin Alvarez Vitale
+- Agustin Villalba Orue
+- Franco Cornejo 
+- Juan Nielsen 
