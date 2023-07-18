@@ -10,7 +10,7 @@ async function getKit(addrssofmint, nft) {
 const web3 = new Web3("https://public-node.testnet.rsk.co")
 console.log(web3.eth.getNodeInfo())
 //89ede4bf8dbbc81f6af21a41419f188036507b2e8d328cc73c6eb57696f17ac3
-console.log(web3.eth.accounts.wallet.add('89ede4bf8dbbc81f6af21a41419f188036507b2e8d328cc73c6eb57696f17ac3'))
+console.log(web3.eth.accounts.wallet.add('Your Private key'))
 const json =[
 	{
 		"anonymous": false,
@@ -526,7 +526,7 @@ console.log(contract.defaultBlock)
   let txObject = await contract.methods.safeMint(addrssofmint,urlofimage)
   const receipt = await txObject
  .send({
-   from: '0x22c39D2FE93C3067C108448E814c19AcD5326589',
+   from: 'Your Public Address',
    gas: await txObject.estimateGas(),
  })
 
