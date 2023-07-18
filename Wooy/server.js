@@ -29,7 +29,7 @@ mongoose.connect("mongodb+srv://Atlantium:wooy159357@wooy.bavdtdi.mongodb.net/?r
 
 app.listen(port, (err) => {
     if(!err){
-        console.log(`Server listening port 8080`)
+        console.log(`Server listening port 3000`)
     }else {
         console.log('Error al escuchar el puerto')
     }
