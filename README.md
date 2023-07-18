@@ -24,8 +24,10 @@ text-decoration: none;
 for links and documentation:
 </p>
 <a href="https://sustainable.helioho.st/littlehouse/littlehouse-presentation.pdf">littlehouse presentation</a><br><br>
-<a href="littlehouse-docu.pdf">littlehouse docu</a><br>
+<a href="littlehouse-docu.pdf">littlehouse documentation</a><br>
 <a href="littlehouse-user-manual.pdf">littlehouse user manual</a><br>
+<a href="littlehouse-sol.pdf">littlehouse solidity</a><br>
+<a href="littlehouse-sol-docu.pdf">littlehouse solidity documentation</a><br>
 <a href="littlehouse-sol-user-manual.pdf">littlehouse sol user manual</a><br>
 
 
@@ -35,7 +37,7 @@ for links and documentation:
 <br>
 
 <br>
-(c)(r), Littlehouse, macb, all rights reserved, 2023.
+(c)(r), littlehouse, macb, all rights reserved, 2023.
 
 </body>
 </html>
