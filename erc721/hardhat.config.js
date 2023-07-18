@@ -9,7 +9,7 @@ module.exports = {
     hardhat: {},
     mumbai: {
       url: "https://rpc-mumbai.maticvigil.com",
-      accounts: [process.env.OWNER_PRIVATE_KEY],  
+      accounts: [process.env.OWNER_PRIVATE_KEY], 
       /**
        * {
         mnemonic: process.env.OWNER_PRIVATE_KEY,
