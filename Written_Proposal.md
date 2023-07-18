@@ -3,7 +3,7 @@
 ![wooy](https://ipfs.io/ipfs/Qmb7mU9CiYr8dMNpUf1TZzapcZeNPHYaf6XzZ1aQRUU44U)
 
 
-**Executive Summary**
+## **Executive Summary**
 
 Wooy is an innovative platform that is disrupting the traditional landscape of charitable fundraising. By harnessing the power of blockchain technology and RSK's infrastructure, Wooy introduces Proof of Donation NFTs (PODs) to incentivize companies and individuals to make a social impact. Our solution not only enhances brand reputation but also attracts new customers and optimizes corporate social responsibility (CSR) budgets, improving their ESG performance.
 
@@ -11,7 +11,7 @@ Through our platform, NGOs and streamers gain access to a wider donor base, coll
 
 Wooy empowers businesses, NGOs, streamers, and users alike to drive meaningful social and environmental change. With our innovative approach, we are revolutionizing the way charitable fundraising is conducted, making it more efficient, transparent, and rewarding for all stakeholders involved.
 
-**Project Overview:**
+## **Project Overview:**
 
 Wooy is a platform that incentivizes companies and users to generate social impact. Through Proof of Donation NFTs (PODs), companies can enhance their brand image, acquire new customers, and creatively utilize CSR budgets. NGOs and streamers benefit from donor acquisition, collaboration opportunities, and enhanced interactions with donors. Users enjoy increased transparency, a digital impact identity, collectible NFTs, social sharing, and exclusive benefits. Wooy's platform empowers users, differentiates businesses, and facilitates positive change.
 
@@ -41,7 +41,7 @@ Furthermore, consumer attitudes and expectations have shifted towards sustainabi
 
 As sustainability expectations rise, companies will face increasing pressure to demonstrate their commitment to sustainable practices. They must integrate sustainability into their value proposition to maintain their reputation and market share. Companies that neglect sustainability as a core value are at risk of future reputational damage and potential loss of market relevance.
 
-**Value Proposition:**
+## **Value Proposition:**
 
 Wooy is creating infraestructure that facilitates and incentivizes companies and users to generate impact.
 
@@ -78,7 +78,7 @@ Overall, our platform empowers users to make a tangible impact, amplifies their 
 
 Our value proposition centers around the fusion of creativity and analysis, working closely with businesses to create campaigns that generate significant and differentiated results in the market. We offer a forward-thinking solution that not only benefits businesses but also facilitates positive social and environmental change.
 
-**Technical Description:**
+## **Technical Description:**
 
 On this stage we are focusing on giving the Proof of Donation tool to every NGO, streamer or anyone generating impact to reward those who help them. This first stage we are using NFTs as the way of providing that certificate of the donation made and creating the first impact identity for users and companies. By doing this we are creating an excellent way to onboard new users into the blockchain scenery and specifically to Rootstock because most of our user/donors are non-blockchain users.
 
@@ -95,7 +95,7 @@ Key Features and Functionalities:
 
 Overall, our solution addresses the problem of outdated and inefficient fundraising models by leveraging RSK's infrastructure, NFTs, RIF Identity Manager, and Cedalio. We provide a user-friendly platform that enables NGOs, streamers, and other impact generators to reward their donors, create an impact identity, ensure transparency in donations, and facilitate user engagement with blockchain technology. By integrating various RIF technologies, we enhance the functionality, security, and scalability of our solution, while also onboarding non-blockchain users to the Rootstock ecosystem.
 
-**Market Analysis:**
+## **Market Analysis:**
 
 Our solution addresses a significant market opportunity by combining two key trends in the industry. Firstly, there is a current shift towards real-world use cases of blockchain technology, moving away from speculation. This aligns with our approach of providing tangible solutions that leverage the benefits of blockchain. Secondly, there is a growing pressure on businesses to engage in impactful campaigns and demonstrate corporate responsibility. This presents an opportunity for us to offer a comprehensive solution that combines impact-driven campaigns with marketing strategies, enabling businesses to meet these increasing demands effectively.
 
@@ -105,7 +105,7 @@ Additionally, the donations market is another key segment we target. In the Unit
 
 By positioning ourselves between these multiple markets, including the charitable, events, and DeFi sectors, we tap into a vast total addressable market (TAM). This allows us to reach a wide range of users and businesses seeking efficient and rewarding ways to donate, participate in events, and engage with blockchain technology. As these markets continue to grow and evolve, our solution has the potential for substantial market penetration and long-term success.
 
-**Project Plan:**
+## **Project Plan:**
 
 To bring our idea to market, we have developed a launch strategy focused on "invading" the market with PODs and gradually educating users. We will target three key segments: nonprofits, streamers, and charitable events, as effective channels for user acquisition. Additionally, we will create initial campaigns in collaboration with recognized brands to demonstrate the effectiveness of PODs. Our goal is to quickly attract users and raise awareness about the benefits of our solution. 
 
@@ -120,7 +120,7 @@ Here are the key steps of our strategy:
 
 By implementing this comprehensive strategy, we aim not only to attract users quickly but also to raise awareness and change the way people and businesses approach donations and social impact.
 
-**Team & Resources:**
+## **Team & Resources:**
 
 Founders:
 
