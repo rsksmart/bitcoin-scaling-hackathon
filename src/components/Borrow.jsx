@@ -100,10 +100,6 @@
     
 // }
 // imageUrl=`https://ordinals.com/content/${id}`
-   
-  
-
-     
     
 //     return (
 //       <div>
@@ -208,13 +204,6 @@
 //     </section> */}
 //     {/* Space */}
 //     {/* <section className="col-12 my-5 my-lg-0 col-lg-1" /> */}
-
-
-
-
-
-
-
 
 //     {/* <Navbar /> */}
 //       <Flex mt={30}>
@@ -490,7 +479,11 @@ export default function Borrow() {
   const [id, setId] = useState("");
   const [ownAdd, setAdd] = useState("");
   const [satNum, setsatNum] = useState("");
-  const [ordinals, setOrdinals] = useState([]);
+  const [ordinals, setOrdinals] = useState([
+    {
+      id: "9b5ad40e4166aa1228c814c1295ecffba541215adafd95bd5ead5b25e342e6f3i0",
+    },
+  ]);
 
   let num = 0.006 * 20;
   let denom = 100;
@@ -551,7 +544,7 @@ export default function Borrow() {
           borderRadius={30}
           background="#D9D9D9"
           width={300}
-          height={650}
+          height={600}
           flexShrink={0}
           mr={25}
           ml={50}
