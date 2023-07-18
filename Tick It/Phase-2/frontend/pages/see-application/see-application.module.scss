@@ -1,0 +1,143 @@
+.wrapper {
+  min-height: 100vh;
+  background-color: #0c0c0c;
+}
+.error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.modalInput {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid var(--white);
+  background-color: transparent !important;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: var(--white);
+}
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+}
+.roundCheckbox {
+  border-radius: 50% !important;
+  width: 14px;
+  height: 14px;
+  margin-bottom: 8px;
+  // -webkit-appearance: none;
+  // -moz-appearance: none;
+  border: 0.5px solid #878787;
+  background: linear-gradient(0deg, var(--primary-dark)),
+    linear-gradient(0deg, var(--primary-dark));
+}
+.checkboxText {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--white);
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.descriptionDiv {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+}
+.modalDescription {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid var(--white);
+  background-color: transparent !important;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: var(--white);
+  min-height: 140px;
+}
+.socialTitle {
+  color: var(--white);
+
+  font-weight: 700;
+  font-size: 18px;
+}
+.socialName {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.socialInput {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 7px;
+  border: 1px solid var(--white);
+  background-color: transparent !important;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: var(--white);
+}
+.social {
+  padding-bottom: 20px;
+}
+.socialLink {
+  padding: 40px 0px;
+}
+.submitBtn {
+  padding-top: 50px;
+}
+.event {
+  max-width: 85%;
+  @media (max-width: 991px) {
+    max-width: 100%;
+  }
+}
+.appButton {
+  padding-top: 30px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.appCard {
+  width: 100%;
+  background-color: #0c0c0c;
+  border-radius: 20px;
+  padding: 20px;
+}
+.title {
+  color: var(--white);
+}
+.profileImage {
+  width: 220px;
+  height: 220px;
+}
+.bannerImage {
+  width: 300px;
+  height: 220px;
+}

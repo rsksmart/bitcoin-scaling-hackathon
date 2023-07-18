@@ -1,0 +1,24 @@
+.reportTitle {
+  justify-content: center;
+  display: flex;
+}
+.title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+
+.modalBody::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: gold;
+  margin-bottom: 1rem;
+}
+
+.modalBody .reportTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}

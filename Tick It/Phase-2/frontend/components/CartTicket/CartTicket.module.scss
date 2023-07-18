@@ -1,0 +1,157 @@
+.cardWrapper {
+  background: #0c0c0c;
+  border: 1px solid var(--white);
+  border-radius: 20px;
+  position: relative;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  max-height: 260px;
+  @media (max-width: 991px) {
+    flex-direction: column;
+    max-height: fit-content;
+  }
+}
+
+.imageGradient {
+  @media (min-width: 991px) {
+    background: linear-gradient(
+      270deg,
+      #202020 0%,
+      rgba(32, 32, 32, 0) 67.05%,
+      rgba(32, 32, 32, 0) 67.05%
+    );
+    bottom: 1px;
+  }
+
+  width: 30%;
+  pointer-events: none;
+  position: absolute;
+
+  height: 99.3%;
+  z-index: 2;
+  border-radius: 12px;
+  @media (max-width: 991px) {
+    background-color: transparent;
+  }
+}
+.imageDiv {
+  width: 30%;
+  background-color: var(--background);
+  @media (min-width: 991px) {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    // max-height: 270px;
+  }
+  @media (max-width: 991px) {
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+}
+.cardImage {
+  width: 100%;
+  // height: 100%;
+  border: 12px;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+}
+.cardDetails {
+  background-color: var(--background);
+  width: 70%;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+}
+.cardTitle {
+  font-family: "DrukWideMedium";
+
+  font-weight: 500;
+  font-size: 26px;
+  color: var(--white);
+}
+.cardPrice {
+  font-family: "DrukWideMedium";
+
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--white);
+  width: fit-content;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardQuantity {
+  font-family: "DrukWideMedium";
+
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--white);
+  width: fit-content;
+}
+.cardCounter {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  flex-direction: row;
+  width: fit-content;
+}
+.cartTicketButton {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 2px;
+  justify-content: space-between;
+  width: 60%;
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+}
+.cardRightLinks {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardAdd {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.cardRecipients {
+  color: var(--primary);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: underline;
+}
+.cardRecipients:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+.eventName {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--white);
+  margin: 6px 0px;
+  text-decoration: none;
+  cursor: pointer;
+}

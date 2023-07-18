@@ -1,0 +1,92 @@
+.payTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payCard {
+  border-radius: 20px;
+  //   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  //   backdrop-filter: blur(2px);
+  padding: 0px;
+}
+.checkOutDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--white);
+}
+.checkOutDetailsTotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+}
+.checkOutDetailsDiv {
+  width: 100%;
+  margin-top: 24px;
+}
+.paymentTitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white);
+  margin: 5px;
+}
+.dropDown {
+  border-radius: 10px;
+  background-color: transparent !important;
+  border: 0.5px solid #737373 !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropDown:hover {
+  background-color: transparent !important;
+  border: 0.5px solid #737373 !important;
+}
+.dropDown:active {
+  background-color: transparent !important;
+  border: 0.5px solid #737373 !important;
+}
+
+.drop {
+  background-color: #737373 !important;
+  border: 0.5px solid #737373 !important;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 0px;
+}
+.title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--white);
+  font-family: "DrukWideMedium";
+}
+.input2 {
+  border: 0.5px solid #737373;
+  border-radius: 10px;
+  background-color: #161616;
+  width: 100%;
+  height: 34px;
+  justify-content: space-between;
+  padding: 0px 5px;
+}
+
+.holderInput {
+  display: flex;
+  justify-content: space-between;
+}

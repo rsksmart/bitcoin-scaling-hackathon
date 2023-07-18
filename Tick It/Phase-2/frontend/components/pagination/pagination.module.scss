@@ -1,0 +1,35 @@
+.paginationDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backArrow {
+  transform: translate(-50%, -50%);
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.arrowSpan {
+  display: block;
+  width: 1vw;
+  height: 1vw;
+  border-bottom: 5px solid var(--disabled1);
+  border-right: 5px solid var(--disabled1);
+  transform: rotate(45deg);
+}
+.arrowSpan:hover {
+  border-bottom: 5px solid var(--primary);
+  border-right: 5px solid var(--primary);
+}
+.nextArrow {
+  transform: translate(-50%, -50%);
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+.dots {
+  color: var(--disabled1);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+}

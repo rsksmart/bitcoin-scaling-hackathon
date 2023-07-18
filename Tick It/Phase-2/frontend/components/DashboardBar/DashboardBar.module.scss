@@ -1,0 +1,148 @@
+.sideBar {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(270deg, #1a1a1a 0%, rgba(26, 26, 26, 0) 100%);
+  box-shadow: 4px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  @media (max-width: 991px) {
+    min-height: 35px;
+    height: fit-content;
+    background: var(--surface1);
+  }
+}
+.sideBarmenu {
+  padding: 0px !important;
+  @media (max-width: 991px) {
+    padding: 20px;
+  }
+}
+.sideBarInputDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px;
+  background: #161616;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.sideBarInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 8px;
+  border: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--white);
+  overflow-x: hidden;
+  background-color: transparent !important;
+}
+.sideBarInput:focus {
+  outline: none;
+}
+.sideBarCheckboxesDiv {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.checkboxText {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--white);
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.dateText {
+  color: var(--white);
+  margin-bottom: 0;
+}
+
+.dateFilterDiv {
+  margin-top: 30px;
+}
+.filterTitle {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.roundCheckbox {
+  border-radius: 50% !important;
+  width: 14px;
+  height: 14px;
+  margin-bottom: 8px;
+  // -webkit-appearance: none;
+  // -moz-appearance: none;
+  border: 0.5px solid #878787;
+  background: linear-gradient(0deg, #1e1e1e, #1e1e1e),
+    linear-gradient(0deg, #878787, #878787);
+}
+.squareCheckbox {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 8px;
+  // -webkit-appearance: none;
+  // -moz-appearance: none;
+  border: 0.5px solid #878787;
+  background: linear-gradient(0deg, #1e1e1e, #1e1e1e),
+    linear-gradient(0deg, #878787, #878787);
+}
+.filterButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.userDetails {
+  display: flex;
+  background-color: rgba(207, 109, 110, 1);
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.userName {
+  margin-bottom: 0 !important;
+  font-size: 16px;
+  color: #f1f1f1;
+  font-family: "DrukWideMedium";
+  font-weight: 500;
+}
+.userEmail {
+  margin-bottom: 0 !important;
+  font-size: 11px;
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
+.dashboardLink {
+  display: flex;
+  padding: 16px 0px 16px 40px;
+
+  color: var(--white);
+  text-decoration: none;
+}
+.dashboardLink:active {
+  background-color: #050505;
+}
+.dashboardLink:hover {
+  background-color: #050505 !important;
+}
+.line {
+  height: 2px;
+  color: var(--disabled1);
+  margin: 0;
+  width: 90%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.lineDiv {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

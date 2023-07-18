@@ -1,0 +1,72 @@
+.eventCard {
+  border-radius: 20px;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardContainer {
+  min-height: 350px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.cardGradient {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 204, 0, 0.38) -40.54%,
+    rgba(255, 204, 0, 0) 9.46%,
+    rgba(0, 0, 0, 1) 59.46%
+  );
+
+  pointer-events: none;
+  position: absolute;
+  width: calc(100% - 2px);
+  left: 1px;
+  bottom: 1px;
+  height: calc(100% - 2px);
+  // z-index: 2;
+  border-radius: 20px;
+}
+.cardImage {
+  width: 100%;
+  min-height: 100%;
+  max-height: 215px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  object-fit: cover;
+  position: relative;
+  // z-index: 1;
+  transition: all ease-in-out 0.7s;
+  transform-origin: bottom;
+  transform: scale(1);
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+.link {
+  text-decoration: none;
+}
+
+.cardDetails {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 3;
+  text-decoration: none;
+}
+.eventTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+  margin-bottom: 0;
+}
+.eventOrganizer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--disabled2);
+}

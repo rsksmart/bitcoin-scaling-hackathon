@@ -1,0 +1,11 @@
+@font-face {
+  font-family: DrukWideBold;
+  src: url(/fonts/DrukWide/DrukWide-Bold-Trial.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DrukWideMedium;
+  src: url(/fonts/DrukWide/DrukWide-Medium-Trial.otf);
+  font-weight: 500;
+}

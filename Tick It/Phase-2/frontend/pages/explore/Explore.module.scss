@@ -1,0 +1,11 @@
+.exploreWrapper {
+  min-height: 100vh;
+  background-color: var(--background);
+}
+.titleDiv {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  @media (max-width: 991px) {
+    padding-top: 0px;
+  }
+}

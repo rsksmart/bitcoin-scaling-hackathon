@@ -1,0 +1,126 @@
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.modalInput {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid var(--white);
+  background-color: transparent !important;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: var(--white);
+}
+.modalInput:focus {
+  background-color: var(--footerBackground);
+}
+.googleLoginDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.googleinput {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: -36px;
+  color: var(--white);
+}
+.googleLogin {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--secondary-dark) !important;
+  height: 52px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  cursor: pointer;
+  border: 0.5px solid var(--disabled1);
+  border-radius: 10px;
+}
+.googleLogin:hover {
+  border: 0.5px solid var(--primary);
+}
+.forgetpassword {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-decoration-line: underline;
+  color: var(--disabled1);
+  display: flex;
+}
+.forgetpass {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 50px;
+  :hover {
+    color: var(--primary-dark);
+  }
+}
+.signup {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--disabled1);
+}
+.signuplink {
+  font-weight: 400;
+  color: var(--disabled1);
+  margin-left: 3px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.signuplink:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.signupdiv {
+  display: flex;
+  font-size: 11px;
+  line-height: 13px;
+  color: var(--disabled1);
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.errors {
+  display: flex;
+  // padding: 0 10%;
+  width: 80%;
+  text-align: left;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.loginError{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

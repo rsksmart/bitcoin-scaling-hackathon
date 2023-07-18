@@ -1,0 +1,18 @@
+.eventWrapper {
+    min-height: 100vh;
+    background-color: var(--background);
+  }
+  .titleDiv {
+    display: flex;
+    align-items: center;
+  }
+  .titleButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  

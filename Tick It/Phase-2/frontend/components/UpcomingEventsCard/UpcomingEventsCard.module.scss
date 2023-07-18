@@ -1,0 +1,47 @@
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.cardImage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 10px;
+  min-height: 150px;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  p {
+    margin-bottom: 0;
+  }
+}
+.cardGradient {
+  background: linear-gradient(
+    0deg,
+    #202020 0%,
+
+    rgba(32, 32, 32, 0) 100%
+  );
+  min-height: 150px;
+  width: 100%;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.eventTitle {
+  font-weight: 700;
+  font-size: 20px;
+}
+.eventTime {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}

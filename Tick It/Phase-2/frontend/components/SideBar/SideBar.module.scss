@@ -1,0 +1,122 @@
+.sideBar {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  background: var(--sidebar);
+  box-shadow: var(--sideBarShadow);
+  @media (max-width: 991px) {
+    min-height: 35px;
+    height: fit-content;
+    background: var(--background);
+  }
+}
+.sidebarMenu {
+  @media (max-width: 991px) {
+    padding: 20px;
+  }
+}
+.sideBarInputDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px;
+  background: #161616;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.sideBarInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 8px;
+  border: none;
+  font-weight: 400;
+  width: 100%;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--white);
+  overflow-x: hidden;
+  background-color: transparent !important;
+}
+.sideBarInput::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.sideBarInput:focus {
+  outline: none;
+}
+.sideBarCheckboxesDiv {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.checkboxText {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--white);
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.dateText {
+  color: var(--white);
+  margin-bottom: 0;
+}
+
+.dateFilterDiv {
+  margin-top: 30px;
+}
+.filterTitle {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.roundCheckbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 0.5px solid #878787;
+  border-radius: 50% !important;
+  margin-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+  // background: linear-gradient(0deg, #1e1e1e, #1e1e1e),
+  //   linear-gradient(0deg, #878787, #878787);
+}
+
+.roundCheckbox:checked {
+  background-color: #f1c40f; /* Replace with your desired background color */
+}
+
+.roundCheckbox:focus {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Add a focus outline if desired */
+}
+
+.squareCheckbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 14px;
+  height: 14px;
+  margin-bottom: 8px;
+  border: 0.5px solid #878787;
+  outline: none;
+  cursor: pointer;
+}
+
+.squareCheckbox:checked {
+  background-color: #f1c40f; /* Replace with your desired background color */
+}
+
+.squareCheckbox:focus {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Add a focus outline if desired */
+}
+
+.filterButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}

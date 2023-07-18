@@ -1,0 +1,25 @@
+# name: Tickit-main-CICD
+
+# on:
+#   push:
+#     branches: ["main"]
+#   workflow_dispatch:
+
+# jobs:
+#   deploy:
+#     name: SSH and Deploy
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Execute Commands
+#         uses: appleboy/ssh-action@master
+#         with:
+#           host: ${{secrets.SSH_HOST}}
+#           username: ${{secrets.SSH_USERNAME}}
+#           password: ${{secrets.SSH_PASSWORD}}
+#           script: |
+#             cd tick-it-FE
+#             sudo git stash
+#             sudo git pull
+#             sudo yarn
+#             sudo yarn dev
+#             sudo pm2 restart 'tick-it-fe'

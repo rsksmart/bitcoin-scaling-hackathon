@@ -1,0 +1,13 @@
+.socialIcon {
+  height: 22px;
+  cursor: pointer;
+  color: white;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 991) {
+    flex-direction: column;
+  }
+  width: 100%;
+}

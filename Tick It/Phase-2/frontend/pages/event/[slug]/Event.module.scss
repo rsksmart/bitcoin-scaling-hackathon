@@ -1,0 +1,30 @@
+.eventWrapper {
+  min-height: 100vh;
+  background-color: var(--background);
+}
+.titleDiv {
+  display: flex;
+  align-items: center;
+}
+.titleButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons {
+  display: flex;
+}
+.reportDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 24px;
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  justify-content: center;
+  @media (max-width: 991px) {
+    margin-bottom: 10px;
+  }
+}

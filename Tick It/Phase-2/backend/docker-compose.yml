@@ -1,0 +1,109 @@
+version: "3.5"
+services:
+  postgresdb:
+    image: postgres:12
+    restart: unless-stopped
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_DB=tick-it
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    networks:
+      - app-network
+
+  redisrtc:
+    image: redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    hostname: redis
+    ports:
+      - "6380:6379"
+    volumes:
+      - ./redis-data:/data
+    networks:
+      - app-network
+
+  bullboard:
+    container_name: bullboard
+    image: deadly0/bull-board
+    restart: always
+    ports:
+      - 3001:3000
+    environment:
+      - REDIS_HOST=redisrtc
+      - REDIS_PORT=6379
+      - REDIS_DB=0
+      - USER_LOGIN=Admin
+      - USER_PASSwORD=Admin123
+    depends_on:
+      - redisrtc
+    networks:
+      - app-network
+
+  server:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        - http_proxy
+        - https_proxy
+        - no_proxy
+    image: tick-it-backend/server:latest
+    depends_on:
+      - postgresdb
+      - redisrtc
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./public:/opt/public
+    environment:
+      - APP_PORT=8081
+      - NODE_ENV=staging
+      - IS_RSK=true
+      - ALLOWED_ORIGINS=http://localhost:3000,https://tickit-dev65414.cryptoware.me
+      - PUBLIC_FOLDER=https://tickitapi-dev21314.cryptoware.me
+      - BLOCKSYNC_HOST=https://blocksync-rsk.cryptoware.me
+      - POSTGRES_HOST=postgresdb
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=tick-it
+      - REDIS_URL=redisrtc
+      - REDIS_PORT=6379
+      - REDIS_USERNAME=default
+      - REDIS_PASSWORD=null
+      - REDIS_DATABASE=0
+      - JWT_KEY=secret123
+      - JWT_ISSUER=accounts.cryptoware.me
+      - JWT_AUDIENCE=test.com
+      - JWT_EXPIRATION_AGE=604800
+      - CLIENT_ID=1053126564925-3k572ca9uuda2ckpphvfpg928ff95u0b.apps.googleusercontent.com
+      - CLIENT_SECRET=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
+      - CALLBACK_URL=https://tickitapi-dev21314.cryptoware.me/v1/auth/oAuth/callback
+      - REDIRECT_URL=https://tickit-dev65414.cryptoware.me/
+      - PASSWORD_RECOVERY_KEY=secret123
+      - TRANSPORTER_EMAIL=
+      - TRANSPORTER_PASSWORD=
+      - INFURA_KEY=426246535c224df3a991f1d22299697a
+      - RSKRpc=https://public-node.rsk.co
+      - RSKTestnetRpc=https://public-node.testnet.rsk.co
+      - MAINNET_LAUNCHPAD_ADDRESS=
+      - MAINNET_BASE_ERC721_ADDRESS=
+      - SEPOLIA_LAUNCHPAD_ADDRESS=0xC0e7e39cC2880757c3c2F52532EA2D0C900D140f
+      - SEPOLIA_BASE_ERC721_ADDRESS=0x41e95880D7eB853890999BE1615475A3E6e44b01
+      - RSK_LAUNCHPAD_ADDRESS=
+      - RSK_BASE_ERC721_ADDRESS=
+      - RSK_TESTNET_LAUNCHPAD_ADDRESS=0x1948CE264cD7165fFA44F9D19FDF85C2D8F461f7
+      - RSK_TESTNET_BASE_ERC721_ADDRESS=0xa8244D4edce4A852E5581c6a716C86b4F724b08A
+      - MINTER_WALLET=0xFDc4bbC7b67E19BfCd13B25F3De778d7C7Fba867
+      - MINTER_PRIVATE_KEY=b5814d25417cb49bf1a25eec70d6d8ccac8f6dff6f465be99c9662d61a62bf77
+    stdin_open: true
+    tty: true
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge

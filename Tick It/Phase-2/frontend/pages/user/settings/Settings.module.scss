@@ -1,0 +1,103 @@
+.settingRow {
+  color: var(--white);
+  // margin: 8px;
+  width: 100%;
+}
+
+.settingCol {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 8px;
+
+  flex-direction: column;
+}
+.settingCategory {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 0;
+  @media (max-width: 991px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @media (max-width: 578px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.settingValue {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+.switchDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 16px;
+  color: var(--white);
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.settingLinkDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.settingLink {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+  text-decoration: none;
+  width: fit-content;
+  margin: 10px 0;
+}
+.settingLink:hover {
+  color: var(--primary-dark);
+  text-decoration: none;
+}
+
+.inputBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.5px solid var(--white);
+  border-radius: 5px;
+  margin-left: -5px;
+  padding: 4px;
+
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: var(--white);
+  background-color: var(--secondary) !important;
+}
+.inputBar:focus {
+  outline: none;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  margin-bottom: 24px;
+  @media (min-width: 991px) {
+    margin-top: 24px;
+  }
+}
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #0c0c0c;
+  padding: 24px;
+  width: calc(100% - 1px);
+}
