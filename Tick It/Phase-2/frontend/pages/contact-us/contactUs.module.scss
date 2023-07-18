@@ -1,0 +1,59 @@
+.Wrapper {
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.container {
+  padding: 40px 0px;
+}
+.messageTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.email {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white);
+  margin: 8px 0px;
+}
+
+.inputDiv {
+  border-radius: 10px;
+  width: 50%;
+  padding: 0px 0px;
+}
+
+.message {
+  margin: 20px 0px;
+}
+.card {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 24px;
+}
+.socials {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 48px;
+}
+.cardTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--white);
+}
+.cardInfo {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--disabled1);
+  margin: 3px 0px;
+}

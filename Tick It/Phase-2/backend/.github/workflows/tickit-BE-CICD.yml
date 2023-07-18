@@ -1,0 +1,26 @@
+name: Tick-it BE CI/CD
+on:
+  push:
+    branches: ["dev"]
+  workflow_dispatch:
+  
+jobs: 
+  Checkout-build-SSH:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Checkout
+      uses: actions/checkout@v3
+    
+    - name: SSH and script
+      uses: appleboy/ssh-action@master
+      with: 
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        key: ${{ secrets.SSH_KEY }}
+        script: |
+          cd tick-it-backend
+          docker compose down
+          git stash
+          git pull
+          docker compose up -d --build 

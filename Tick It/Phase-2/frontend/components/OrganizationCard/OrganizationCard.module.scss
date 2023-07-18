@@ -1,0 +1,31 @@
+.cardImage {
+ width: 180px;
+  height:180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.organizerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: fit-content;
+}
+.organizationName {
+  margin: 8px 0px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--white);
+}
+.organizationRole {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: var(--white);
+}

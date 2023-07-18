@@ -1,0 +1,21 @@
+.statsWrapper {
+  padding: 10px;
+}
+.statNumber {
+  font-family: "DrukWideMedium";
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: var(--white);
+}
+
+.statType {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+
+  color: var(--white);
+}

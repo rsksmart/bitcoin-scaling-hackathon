@@ -1,0 +1,66 @@
+.sideBar {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(270deg, #1a1a1a 0%, rgba(26, 26, 26, 0) 100%);
+  box-shadow: 4px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  @media (max-width: 991px) {
+    min-height: 35px;
+    height: fit-content;
+    background: var(--background);
+  }
+}
+.sideBarmenu {
+  padding: 0px !important;
+  @media (max-width: 991px) {
+    padding: 20px;
+  }
+}
+
+.userDetails {
+  display: flex;
+  background-color: transparent;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+}
+.userName {
+  margin-bottom: 0 !important;
+  font-weight: 700px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f1f1f1;
+}
+
+.dashboardLink {
+  display: flex;
+  padding: 16px 0px 16px 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+  text-decoration: none;
+}
+.dashboardLink:active {
+  background-color: #050505;
+}
+.dashboardLink:hover {
+  background-color: #050505;
+  color: var(--primary-dark);
+}
+.dropTitle {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profileImage {
+  margin-right: 10px;
+}
+.arrowDown {
+  margin: 10px;
+  cursor: pointer;
+}

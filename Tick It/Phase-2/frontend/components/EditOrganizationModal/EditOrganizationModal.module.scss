@@ -1,0 +1,44 @@
+.reportTitle {
+  justify-content: center;
+  display: flex;
+}
+.title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+.socialTitle {
+  color: var(--white);
+
+  font-weight: 700;
+  font-size: 18px;
+}
+.socialName {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+.socialInput {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+
+  border: 1px solid var(--white);
+  background-color: transparent !important;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: var(--white);
+}
+.social {
+  padding-bottom: 20px;
+}
+.socialLink {
+  margin-top: 24px;
+}

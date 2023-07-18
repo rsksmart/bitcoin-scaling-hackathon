@@ -1,0 +1,62 @@
+.payTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--white);
+  font-family: "DrukWideMedium";
+}
+.checkOutDetails {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.addRecipientsDiv {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
+}
+.input {
+  border: 0.5px solid #737373;
+  border-radius: 10px;
+  background-color: #161616;
+  width: 100%;
+  height: 60px;
+  padding: 0px 5px;
+  ::placeholder {
+    color: red;
+    opacity: 1;
+  }
+}
+.withDrawDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+  align-items: center;
+}
+.amount {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  right: 10%;
+}
+.addressSentence {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #848484;
+}
+.address {
+  margin-top: 12px;
+}
+.nextButton {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

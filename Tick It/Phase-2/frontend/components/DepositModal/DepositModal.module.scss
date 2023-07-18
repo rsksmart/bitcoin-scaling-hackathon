@@ -1,0 +1,78 @@
+.payTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--white);
+  font-family: "DrukWideMedium";
+}
+.checkOutDetails {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.addRecipientsDiv {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+
+  align-items: center;
+  @media (max-width: 578px) {
+    flex-direction: column;
+  }
+}
+.btnDiv {
+  width: fit-content;
+  margin-left: -140px;
+  @media (max-width: 578px) {
+    margin-left: 0px;
+    margin-top: 12px;
+  }
+}
+
+.connectButton {
+  background-color: #cf6d6e;
+  border-radius: 8px;
+  width: 95px;
+  border: 0.5px solid #737373;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 34%;
+  right: 40px;
+}
+.connectText {
+  color: var(--white);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "DrukWideMedium";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px 10px;
+}
+.addRecipientsDiv {
+  position: relative;
+}
+
+.addressSentence {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #848484;
+  display: flex;
+  width: 60%;
+}
+
+.address {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

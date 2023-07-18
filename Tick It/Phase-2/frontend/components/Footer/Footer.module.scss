@@ -1,0 +1,87 @@
+.footerWrapper {
+  background-color: var(--footerBackground);
+}
+.footerWrapper {
+  min-height: 230px;
+  border-top: 1px solid;
+  border-color: var(--primary-dark);
+  padding: 60px 10px;
+}
+.linksWrapper {
+  display: flex;
+}
+.linksCol {
+  display: flex;
+  flex-direction: column;
+}
+.footerLink {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white);
+  text-decoration: none;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+.footerLink:hover {
+  color: var(--primary-dark);
+  text-decoration: none;
+}
+
+.subscribeTitle {
+  color: var(--white);
+  font-size: 17px;
+  font-weight: Poppins;
+  font-weight: 500;
+}
+
+.emailInput {
+  background-color: var(--footerBackground);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.emailInput:focus {
+  background-color: var(--footerBackground);
+  color: var(--white);
+  border: none;
+  box-shadow: 0 0 0 3px rgba(226, 188, 21, 0.829); /* Add a yellow box shadow when focused */
+}
+.callForSubscription {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.socialIcons {
+  width: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  .socialIcon {
+    height: 26px;
+    cursor: pointer;
+    color: var(--white);
+  }
+}
+
+.invalidMail {
+  padding-top: 8px;
+  color: red;
+}
+
+.mailSubmitted {
+  padding-top: 8px;
+  color: var(--white);
+}
+.arrowRight {
+  position: absolute;
+  top: 32%;
+  right: 10px;
+}
+.rightColFooterPart {
+  width: 100%;
+}

@@ -1,0 +1,116 @@
+.payTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkOutDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--white);
+}
+.checkOutDetailsTotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+}
+.checkOutDetailsDiv {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.roundCheckbox {
+  border-radius: 50% !important;
+  width: 14px;
+  height: 14px;
+  // -webkit-appearance: none;
+  // -moz-appearance: none;
+  border: 0.5px solid #ffcc00;
+  background-color: linear-gradient(0deg, #ffcc00),
+    linear-gradient(0deg, #ffcc00);
+  cursor: pointer;
+}
+
+.checkboxText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white);
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+.box {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.paymentTitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white);
+  margin-bottom: 7px;
+}
+.dropDown {
+  border-radius: 10px;
+  background-color: transparent !important;
+  border: 0.5px solid #737373 !important;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropDown:hover {
+  background-color: transparent !important;
+  border: 0.5px solid #737373 !important;
+}
+.dropDown:active {
+  background-color: transparent !important;
+  border: 0.5px solid #737373 !important;
+}
+
+.drop {
+  background-color: #737373 !important;
+  border: 0.5px solid #737373 !important;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.walletBallance {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  margin-top: 8px;
+}
+.info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.wallet {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0px;
+}
+.walletConnected {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white);
+  margin: 0px;
+}
+
+.paymentButton{
+  margin-top: 0.5rem;
+}
