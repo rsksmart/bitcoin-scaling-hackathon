@@ -26,7 +26,7 @@ export default function Main() {
    
   return (
     <div className="container">
-        <button onClick={e=>showPopUp(e)}>Connect Hero</button>
+        <button  className="btn btn-md btn-primary border border-2 border-black text-black" onClick={e=>showPopUp(e)}>Connect Hiro</button>
       {add?add:"undefined"}
      <Header sendSigner={sendSigner}  />
       <main className="row align-items-start">

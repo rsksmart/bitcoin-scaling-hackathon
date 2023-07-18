@@ -1,17 +1,12 @@
 import { ethers } from "ethers";
 import { useEffect } from "react";
+
 export default function Header({sendSigner}) {
     let authenticated;
     const connectWallet= async(e)=>{
         e.preventDefault()
         const provider = new ethers.BrowserProvider(window.ethereum);
         const signer = await provider.getSigner()
-
-        // if(signer!="undefined")
-        // {
-        //     authenticated = true;
-        //     console.log(authenticated)
-        // }
         sendSigner(signer);
     }
 
