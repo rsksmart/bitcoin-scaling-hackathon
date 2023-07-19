@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+coverage
+coverage.json
+.idea
+.rsktestnet-block-rpc-response.json
+.rsktestnet-seed-phrase
+
+#Hardhat files
+cache
+artifacts
