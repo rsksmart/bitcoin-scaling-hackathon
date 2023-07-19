@@ -16,6 +16,8 @@ contract GovernorContract is
   GovernorVotesQuorumFraction,
   GovernorTimelockControl
 {
+
+  event Hello(uint256 num); 
   constructor(
     IVotes _token,
     TimelockController _timelock,
@@ -87,6 +89,7 @@ contract GovernorContract is
     bytes[] memory calldatas,
     string memory description
   ) public override(Governor, IGovernor) returns (uint256) {
+    emit Hello(10) ; 
     return super.propose(targets, values, calldatas, description);
   }
 
@@ -96,6 +99,7 @@ contract GovernorContract is
     override(Governor, GovernorSettings)
     returns (uint256)
   {
+    
     return super.proposalThreshold();
   }
 

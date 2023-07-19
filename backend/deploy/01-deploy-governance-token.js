@@ -8,9 +8,11 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     const { deployer } = await getNamedAccounts();
     const chainId = network.config.chainId; 
 
+
     const maxSupply = ethers.toBigInt("100000000000000000000");
     const arguments = ["GovernanceFT", "Gft", maxSupply];
     const waitBlockConfirmations = developmentChains.includes(network.name) ? 1 : 5; 
+    log("akjfnsjfsdjsdvbdv"); 
 
     log("----------------------- DEPLOYING GOVERNANCE TOKEN ----------------------------")
     const governanceToken = await deploy("GovernanceToken", {
