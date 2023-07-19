@@ -26,7 +26,7 @@ We aim to empower creators and enthusiasts to unleash the full potential of NFTs
 
 The **creation** pillar allows users to create their own NFTs artwork using a simple and user-friendly interface. Users can upload their own artwork or other digital assets or use our builtin generative art tool, and we'll guide them through the process of creating the metadata, defining its rarity, and uploading the collection to IPFS (a decentralized immutable file system) for free.
 
-The **deployment** pillar allows users to create and deploy the NFT contract on the blockchain, making them immutable, verified and accessible to the public. Our optimized system offers ultra low contract deployment fees while keeping advanced functionalities, like different minting types, minting the NFTs on any ERC-20 (like peggy BTC, USDT, DAI, ETH or any created ERC-20) or native coin (TZBC), Soulbound tokens, on chain affiliation... Furthermore, we offer the possibility to use our upgradeable contracts to benefit from new upcoming features. When deploying a collection you'll receive an NFT that represents its ownership.
+The **deployment** pillar allows users to create and deploy the NFT contract on the blockchain, making them immutable, verified and accessible to the public. Our optimized system offers ultra low contract deployment fees while keeping advanced functionalities, like different minting types, minting the NFTs on any ERC-20 (like peggy BTC, USDT, DAI, ETH or any created ERC-20) or native coin (RBTC), Soulbound tokens, on chain affiliation... Furthermore, we offer the possibility to use our upgradeable contracts to benefit from new upcoming features. When deploying a collection you'll receive an NFT that represents its ownership.
 
 The **administration** pillar focuses on the management of collection including the community aspect of the life cycle. Create custom subdomains or minting widgets for your own website, allowlists, whitelists, airdrops, set the drop and end date, create token gated content only accessible for your owners.
 
@@ -61,7 +61,7 @@ Would you like to create a collection but don't have the artwork? We got you cov
 
 ### Anypayments & ERC-20 mintings
 
-NFTs2Me allows to set the minting price not only in native, but also in any currency/ERC-20, and let the users mint in ERC-20 or native coin. Set a price in Native Coin (e.g. TZBC) or ERC-20 (USDT, pegged BTC...). 
+NFTs2Me allows to set the minting price not only in native, but also in any currency/ERC-20, and let the users mint in ERC-20 or native coin. Set a price in Native Coin (e.g. RBTC) or ERC-20 (USDT, pegged BTC...). 
 
 This is currently not live on Rootstock testnet, but will be on Rootstock mainnet. On mainnet it will let your users **mint your NFTs with anything** (Native or any ERC-20). We'll do a **transparent swap and mint** for the user in one transaction. The owner always receives in the defined payment.
 
