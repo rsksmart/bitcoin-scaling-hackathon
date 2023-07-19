@@ -36,7 +36,7 @@ https://docs.google.com/presentation/d/1tQH7n1SiOVbF5PNP5Jv1MebVYRGm5H4RAqYdnJBo
 
 ## Demo Video
 
-TBA
+https://www.youtube.com/watch?v=zwxDeBNdjY4
 
 ## Rootstock Direct Links
 
