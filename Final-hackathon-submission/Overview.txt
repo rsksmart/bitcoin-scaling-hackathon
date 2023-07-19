@@ -1,0 +1,5 @@
+The submission contains
+1. Revised Ideathon Solution (Ideathon Concept Note.docx)
+2. Video Demonstrating MVP deployment (MVP Demonstration.mp4)
+3. Presentation (Presentation.ppt)
+4. Sample (standard) code of the solution deployment (sampleCode.sol)
