@@ -113,7 +113,7 @@ let totalamt;
           <Flex alignItems="center" mb={2}>
             <Text flexShrink={0}>Repayment address:</Text>
             <Box ml="auto">
-              <Text>0xAc18efe0E1beF9c53411A899F4AD8eFD9E0976ff</Text>
+              <Text>0x428c3Ec3cbDCA81dEDaD3b8231b0a850C0226257</Text>
             </Box>
           </Flex>
           <Flex alignItems="center" mb={2}>
