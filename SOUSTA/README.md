@@ -6,7 +6,7 @@ Rootstock blockchain.
 
 [SOUSTA Dapp demo video](https://www.loom.com/share/2bc733b7e0ff4e2d90806d058ff7864a?sid=8663320f-1b20-4900-ae02-a3ece5bf7e95)
 
-[SOUSTA pitch deck]()
+[SOUSTA pitch deck](https://github.com/gp22/bitcoin-scaling-hackathon/blob/632e632e73ec846d7ff0c5fdde2530a7c8d9511c/SOUSTA/SOUSTA-pitch-deck.pdf)
 
 [SOUSTA executive summary](https://github.com/gp22/bitcoin-scaling-hackathon/blob/0f4b9e86b20928dfaec5fc42188ee6b44875470a/SOUSTA/SOUSTA-executive-summary.pdf)
 
