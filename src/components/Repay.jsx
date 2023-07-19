@@ -27,6 +27,10 @@ let totalamt;
         LendingJSON.abi,
         signer
         );
+        const handleClick=(e)=>{
+          e.preventDefault();
+          console.log("clicked")
+        }
         const fetchLoanDetails=async(e)=>{
             e.preventDefault();
             let priAmt; let time; let interest; 
@@ -39,16 +43,19 @@ let totalamt;
             settotalAmount(ethers.formatUnits(totalamt.toString(),18))
             settime(time.toString())
             console.log(totalAmount)
+            console.log("ji")
         }
         const makePayment=async(e)=>{
           e.preventDefault();
           try{
-            let tx =  await TreasuryContract.receiveFund({value:ethers.parseUnits(totalamt.toString(),18)}) // Working on It
+            let tx =  await TreasuryContract.receiveFund({value:ethers.parseUnits(totalAmount,18)}) 
           }catch(error){
             alert("tx cancelled")
             console.log(error)
           }
+        
         } 
+
     
     return (
       <div>
@@ -124,8 +131,9 @@ let totalamt;
               >
               Get Loan Info
               </Button>
+              {/* <button onclick={e=>handleClick(e)}>click me</button> */}
               <Box mt={20}>
-                <Button  onclick={e=>makePayment(e)}
+                <Button  onClick={e=>makePayment(e)}
                   display="inline-flex"
                   padding="15px 20px"
                   alignItems="center"

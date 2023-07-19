@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
-// import "@openzeppelin/contracts/access/AccessControl.sol";
+
 import "./Lending.sol";
 contract Treasury is Lending{
 
@@ -16,7 +16,7 @@ contract Treasury is Lending{
        uint indexed amount
    );
 
-   function receiveFund() payable public{
+   function receiveFund()  public payable{
     uint amt = super.calculateTotalPayable();
     require(msg.value>=amt,"Repay The correct amount");
     super.resetValue();
@@ -29,7 +29,6 @@ contract Treasury is Lending{
     payable(msg.sender).transfer(eligibleAmt);
     emit withdrawEvent(msg.sender,eligibleAmt);
    }
-   function fakeFund() public payable {}
   function checkPaybleAmt() public view returns(uint) {
     return super.calculateInterest();
   }

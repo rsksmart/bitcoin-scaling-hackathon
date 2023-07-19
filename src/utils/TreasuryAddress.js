@@ -1,2 +1,2 @@
-const TreasuryAddress = "0xf50c3a9f86D399ae46F5fc389C55EcA2137cdAeb" 
+const TreasuryAddress = "0x428c3Ec3cbDCA81dEDaD3b8231b0a850C0226257" 
 export default TreasuryAddress
