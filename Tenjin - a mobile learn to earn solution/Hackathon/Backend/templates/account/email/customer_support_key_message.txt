@@ -1,0 +1,17 @@
+
+{% load i18n %}
+
+{% block content %}{% autoescape off %}{% blocktrans %} Hello,
+
+The following Wizzer App User:
+
+User  -  {{ user_name }}  {{ user_lastname }}
+Email address  - {{ user_email }}
+
+Has sent a Customer Support request with the following Message:
+
+{{ msg }}
+
+Thank you for processing this request
+
+{% endblocktrans %}{% endautoescape %}{% endblock %}

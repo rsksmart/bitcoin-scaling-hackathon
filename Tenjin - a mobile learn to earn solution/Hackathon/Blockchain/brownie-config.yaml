@@ -1,0 +1,25 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts-upgradeable@4.5.0
+  - OpenZeppelin/openzeppelin-contracts@4.5.0
+compiler:
+  solc:
+    optimizer:
+      enabled: true
+      runs: 10
+    remappings:
+      - "@openzeppelin/contracts-upgradeable=OpenZeppelin/openzeppelin-contracts-upgradeable@4.5.0/contracts"
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.5.0"
+      - "@uniswap=node_modules/@uniswap"
+networks:
+  default: development
+  mainnet-fork:
+    verify: True
+  kovan:
+    verify: True
+  rinkeby:
+    verify: True
+  hardhat:
+    verify: False
+wallets:
+  from_key: ${PRIVATE_KEY}
+dotenv: .env

@@ -1,0 +1,155 @@
+{% block content %}
+    <html lang="en">
+        <head>
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+            <title>Leaderboard Viewing</title>
+            <style>
+                body {
+                    background-color: #f2f2f2;
+                }
+
+                .container-fluid {
+                    background-color: #ffffff;
+                    border-radius: 5px;
+                    padding: 20px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+
+                h2 {
+                    color: #333333;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+
+                form {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                }
+
+                label {
+                    font-weight: bold;
+                    margin-right: 10px;
+                }
+
+                select {
+                    padding: 5px;
+                    border: 1px solid #cccccc;
+                    border-radius: 4px;
+                    margin-right: 10px;
+                }
+
+                button[type="submit"] {
+                    padding: 5px 15px;
+                    background-color: #007bff;
+                    color: #ffffff;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+
+                button[type="submit"]:hover {
+                    background-color: #0069d9;
+                }
+
+                .leaderboard {
+                    margin-top: 30px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+
+                .week {
+                    width: 48%;
+                    margin-bottom: 20px;
+                    background-color: #ffffff;
+                    border-radius: 5px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    padding: 20px;
+                }
+
+                .week h6 {
+                    margin: 0;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+
+                .week ol {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
+
+                .week li {
+                    margin-bottom: 5px;
+                }
+
+                .week li span {
+                    font-weight: bold;
+                }
+
+            </style>
+        </head>
+        <body>
+            <div class="container-fluid flex">
+                <div class="text-center flex">
+                    <h2>Leaderboard Viewing</h2>
+                    <div class="columns d-flex justify-content-around">
+                        <form method="GET" action="{% url 'leaderboardtemplate' %}?month={{ selected_month }}">
+                            <label for="year">Select a year:</label>
+                            <select name="year" id="year" initial="{{ default_year }}">
+                                <option value=2022 {% if selected_year == "2022" %}selected{% endif %}> 2022 </option>
+                                <option value=2023 {% if selected_year == "2023" %}selected{% endif %}> 2023 </option>
+                            </select>
+                            <br>
+                            <br>
+                            <label for="month">Select a month:</label>
+                            <select name="month" id="month" initial="{{ default_month }}">
+                                <option value=1 {% if selected_month == "1" %}selected{% endif %}> Jan </option>
+                                <option value=2 {% if selected_month == "2" %}selected{% endif %}> Feb </option>
+                                <option value=3 {% if selected_month == "3" %}selected{% endif %}> Mar </option>
+                                <option value=4 {% if selected_month == "4" %}selected{% endif %}> Apr </option>
+                                <option value=5 {% if selected_month == "5" %}selected{% endif %}> Mai </option>
+                                <option value=6 {% if selected_month == "6" %}selected{% endif %}> June </option>
+                                <option value=7 {% if selected_month == "7" %}selected{% endif %}> July </option>
+                                <option value=8 {% if selected_month == "8" %}selected{% endif %}> Aug </option>
+                                <option value=9 {% if selected_month == "9" %}selected{% endif %}> Sep </option>
+                                <option value=10 {% if selected_month == "10" %}selected{% endif %}> Oct </option>
+                                <option value=11 {% if selected_month == "11" %}selected{% endif %}> Nov </option>
+                                <option value=12 {% if selected_month == "12" %}selected{% endif %}> Dec </option>
+                            </select>
+                            <button type="submit">Get Leaderboard</button>
+                        </form>
+                    </div>
+                    <h5 class="text-center "> Month : {{ month_name }} <br> Year : {{ selected_year }} </h5>
+                    <div class="border columns d-flex justify-content-around">
+                        <ol>
+                            {% for item in data %}
+                                <li> ID: {{ item.user_id }} - Username: {{ item.user__username }} - XP: {{ item.xp_val }} </li>
+                            {% endfor %}
+                        </ol>
+                    </div>
+                </div>
+                <div class="columns d-flex justify-content-between">
+                    {% for week in data2 %}
+                        <div class="columns d-flex justify-content-between">
+                            <ol class="text-center border">
+                                <h6 class="text-center ">Week {{ forloop.counter }} - {{ week.start_date }} to {{ week.end_date }} </h6>
+                                {% for user in week.user_data %}
+                                <li> ID: {{ user.user_id }} - Username: {{ user.user__username }} - XP: {{ user.xp_val }} </li>
+                                {% endfor %}
+                            </ol>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </body>
+    </html>
+{% endblock %}
+
+
+

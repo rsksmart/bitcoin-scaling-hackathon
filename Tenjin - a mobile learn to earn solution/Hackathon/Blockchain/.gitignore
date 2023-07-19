@@ -1,0 +1,13 @@
+build
+.build
+__pycache__
+.pytest_cache
+.cache
+cache/
+out/
+.env
+venv
+.hypothesis
+reports
+interfaces
+hardhat.config.js
