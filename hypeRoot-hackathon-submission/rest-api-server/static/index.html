@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hypeRoot</title>
+    <script src="./dist/bundle.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0b090a;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: #444444;
+            color: #fafaff;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        svg {
+            display: block;
+            font: 10.5em 'Montserrat';
+            width: 960px;
+            height: 300px;
+
+        }
+
+        .text-copy {
+            fill: none;
+            stroke: white;
+            stroke-dasharray: 6% 29%;
+            stroke-width: 5px;
+            stroke-dashoffset: 0%;
+            animation: stroke-offset 9s infinite linear;
+        }
+
+        .text-copy:nth-child(1) {
+            stroke: #1f164d;
+            animation-delay: -1.5s;
+        }
+
+        .text-copy:nth-child(2) {
+            stroke: #2d2b6a;
+            animation-delay: -3s;
+        }
+
+        .text-copy:nth-child(3) {
+            stroke: #220c7c;
+            animation-delay: -4.5s;
+        }
+
+        .text-copy:nth-child(4) {
+            stroke: #20032f;
+            animation-delay: -6s;
+        }
+
+        .text-copy:nth-child(5) {
+            stroke: #390938;
+            animation-delay: -7.5s;
+        }
+
+        .text-copy:nth-child(6) {
+            stroke: #551037;
+            animation-delay: -9s;
+        }
+
+        @keyframes stroke-offset {
+            100% {
+                stroke-dashoffset: -35%;
+            }
+        }
+
+        .main-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hyperoot {
+            background-color: rgba(255, 255, 255, 0);
+            /*padding: 0px;*/
+            border-radius: 5px;
+            box-shadow: 0 5px 10px rgba(11, 9, 10, 1);
+            margin-bottom: 0px;
+            z-index: 1;
+        }
+
+        input[type="text"], input[type="date"] {
+            background-color: rgba(255, 255, 255, 1);
+            border: 1px solid rgba(0, 0, 0, 0.6);
+            border-radius: 3px;
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        input[type="text"]::placeholder,
+        input[type="date"]::placeholder {
+            color: black;
+            opacity: 1;
+        }
+
+        .btnn {
+            font-size: 15px;
+            font-weight: 200;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding: 13px 20px 13px;
+            outline: 0;
+            border: 1px solid white;
+            cursor: pointer;
+            position: relative;
+            background-color: rgba(0, 0, 0, 0);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .btnn:after {
+            content: "";
+            background-color: #8f225f;
+            width: 100%;
+            z-index: -1;
+            position: absolute;
+            height: 100%;
+            top: 7px;
+            left: 7px;
+            transition: 0.2s;
+        }
+
+        .btnn:hover:after {
+            top: 0px;
+            left: 0px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .hyperoot-form input:focus,
+        .hyperoot-form button:focus {
+            outline: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<svg viewBox="0 0 960 300">
+    <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="40%">hypeRoot</text>
+    </symbol>
+
+    <g class="g-ants">
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+    </g>
+</svg>
+
+<div class="container-fluid main-container">
+    <div class="container mt-7">
+        <div class="row justify-content-md-center">
+            <div class="card hyperoot">
+                <div class="card-body">
+                    <form id="connectJoinForm" class="hyperoot-form text-center">
+                        <div class="button-container">
+                            <button onclick="event.preventDefault(); bundle.connect()" class="btnn">Connect Metamask</button>
+                            <button onclick="event.preventDefault(); bundle.joinFabric()" class="btnn">Join Fabric Network</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-7">
+        <div class="row justify-content-md-center">
+            <div class="card hyperoot">
+                <div class="card-body">
+                    <form id="getDataForm" class="hyperoot-form text-center">
+                        <div class="button-container">
+                            <button type="submit" onclick="event.preventDefault(); bundle.getTransactionData()" class="btnn">Get Transaction Data</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-7">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card hyperoot">
+                    <div class="card-body">
+                        <form id="lockUnlockForm" class="hyperoot-form">
+                            <input type="text" id="lockUnlockAmount" placeholder="Amount (in tR-BTC)" autocomplete="off" required>
+                            <div class="button-container">
+                                <button type="submit" onclick="event.preventDefault(); bundle.lockTokens(document.getElementById('lockUnlockAmount').value)" class="btnn">Lock Tokens</button>
+                                <button type="submit" onclick="event.preventDefault(); bundle.unlockTokens(document.getElementById('lockUnlockAmount').value)" class="btnn">Unlock Tokens</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="card hyperoot">
+                    <div class="card-body">
+                        <form id="recoverForm" class="hyperoot-form">
+                            <button type="submit" onclick="event.preventDefault(); bundle.recoverTokens()" class="btnn">Recover Tokens</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card hyperoot">
+                    <div class="card-body">
+                        <form id="transferForm" class="hyperoot-form">
+                            <input type="text" id="transferTo" placeholder="To (account address)" autocomplete="off" required>
+                            <input type="text" id="transferAmount" placeholder="Amount (in tR-BTC)" autocomplete="off" required>
+                            <button type="submit" onclick="event.preventDefault(); bundle.transferTokens(document.getElementById('transferTo').value, document.getElementById('transferAmount').value)" class="btnn">Transfer Tokens</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
