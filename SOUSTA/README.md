@@ -15,7 +15,7 @@ Rootstock blockchain.
 It also contains a landing page highlighting four of our current investment
 opportunities. Which are real investments we at SOUSTA have experience with.
 
-![Landing Page Screenshot]()
+![Landing Page Screenshot](https://github.com/gp22/bitcoin-scaling-hackathon/blob/ef65f2c047a1b029ee8fd89215b9f6fdef408ccd/SOUSTA/landing-page.jpg)
 
 ### Our Process
 
