@@ -1,0 +1,265 @@
+.rooted-pane {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 32px;
+
+  margin-top: 32px;
+
+  width: 960px;
+
+  /* gradient-base */
+
+  background: linear-gradient(
+    90deg,
+    rgba(25, 27, 39, 0) 0%,
+    #191b27 100%
+  ) !important;
+  /* shadow-right */
+
+  filter: drop-shadow(16px 0px 16px rgba(0, 0, 0, 0.24)) !important;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 3;
+}
+
+.rooted-pane-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  width: 896px;
+  min-height: 48px;
+
+  /* Inside auto layout */
+
+  gap: 12px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.rooted-pane-header h1 {
+  color: #ff9100;
+}
+
+.rooted-pane-header .arrow {
+  cursor: pointer;
+}
+
+.rooted-pane-header .arrow-down {
+  transform: rotate(180deg);
+}
+
+.rooted-pane .block-wide {
+  border-left: 2px solid #ff9100;
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4px 0px 4px 16px;
+
+  width: 518px;
+  min-height: 48px;
+
+  /* accent */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.rooted-pane-body {
+  width: 99%;
+}
+
+.rooted-pane button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+
+  margin-left: 0.5rem;
+
+  cursor: pointer;
+
+  /* height: 48px; */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.label {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* primary */
+
+  color: #e8e8e9;
+}
+
+.label.rooted-id {
+  font-size: 125%;
+  line-height: 125%;
+}
+
+.label.rooted-id-contracted {
+  font-size: 110%;
+  line-height: 140%;
+}
+
+.rooted-pane-body .block {
+  /* primary */
+
+  color: #e8e8e9;
+  margin: 0 0 1rem 0;
+}
+
+.rooted-pane-body .block.message {
+  margin-top: 1.5rem;
+}
+
+.rooted-pane .line {
+  width: 896px;
+  height: 0px;
+
+  margin: 2rem 0 2rem 0;
+
+  /* primary-20 */
+
+  border: 1px solid rgba(232, 232, 233, 0.2);
+}
+
+.rooted-pane .error-text {
+  color: #ff4f4f;
+  border-color: #ff4f4f;
+}
+
+.mobile {
+  display: none !important;
+}
+
+.no-mobile {
+}
+
+@media only screen and (max-width: 767px) {
+  .rooted-pane {
+    padding: 16px;
+    margin-right: -16px;
+  }
+
+  .rooted-pane-header {
+    width: 348px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .rooted-pane button:first-child {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  p.label.rooted-id {
+    font-size: 110%;
+    line-height: 125%;
+  }
+
+  p.label.rooted-id-contracted,
+  .label.rooted-id {
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    font-size: 110%;
+    line-height: 125%;
+  }
+
+  .rooted-pane .line {
+    width: auto;
+    margin: 12px 0 24px 0;
+  }
+
+  .rooted-pane .block-wide {
+    width: 310px;
+  }
+
+  .rooted-pane-header .header-item.header-title {
+    width: 286px;
+  }
+
+  .no-mobile {
+    display: none !important;
+  }
+
+  .mobile {
+    display: flex !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  .rooted-pane {
+    padding: 16px;
+    margin-right: -16px;
+  }
+
+  .rooted-pane-header {
+    width: 754px;
+  }
+  /*
+  .rooted-pane button:last-child {
+    margin-right: 1rem;
+  } */
+
+  p.label.rooted-id {
+    font-size: 110%;
+    line-height: 125%;
+  }
+
+  p.label.rooted-id-contracted,
+  .label.rooted-id {
+    width: 450px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+    font-size: 110%;
+    line-height: 125%;
+  }
+
+  .rooted-pane .line {
+    width: auto;
+    margin: 24px 0 24px 0;
+  }
+
+  .rooted-pane .block-wide {
+    width: 420px;
+    flex-grow: 1;
+  }
+}
