@@ -1,3 +1,12 @@
+// Readme
+Welcome to Ordinal DAO , a lending pool for bitcoin ordinals
+to setup the project locally run the commands below
+git clone <url> <OrdinalDAOv1>
+npm install
+npm start
+
+
+
 Starting migrations...
 ======================
 > Network name:    'rskTestnet'
