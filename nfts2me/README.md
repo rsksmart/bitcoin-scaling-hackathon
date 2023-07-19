@@ -30,6 +30,10 @@ The **deployment** pillar allows users to create and deploy the NFT contract on 
 
 The **administration** pillar focuses on the management of collection including the community aspect of the life cycle. Create custom subdomains or minting widgets for your own website, allowlists, whitelists, airdrops, set the drop and end date, create token gated content only accessible for your owners.
 
+## Presentation Slides
+
+https://docs.google.com/presentation/d/1tQH7n1SiOVbF5PNP5Jv1MebVYRGm5H4RAqYdnJBo2fk/view
+
 ## Demo Video
 
 TBA
