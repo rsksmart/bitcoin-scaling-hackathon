@@ -8,7 +8,7 @@ Rootstock blockchain.
 
 [SOUSTA pitch deck]()
 
-[SOUSTA executive summary]()
+[SOUSTA executive summary](https://github.com/gp22/bitcoin-scaling-hackathon/blob/0f4b9e86b20928dfaec5fc42188ee6b44875470a/SOUSTA/SOUSTA-executive-summary.pdf)
 
 ## Landing Page
 
