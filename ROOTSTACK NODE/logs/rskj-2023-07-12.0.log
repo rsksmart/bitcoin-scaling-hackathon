@@ -1,0 +1,217 @@
+2023-07-12-12:23:31.0535 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-12:23:31.0535 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-12:23:31.0535 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-12:23:31.0598 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-12:23:31.0598 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-12:23:31.0739 ERROR [db] [main]  IO error: lock C:\Users\mabas\.rsk\mainnet\database\unitrie/LOCK: database already in use: could not acquire exclusive lock
+org.fusesource.leveldbjni.internal.NativeDB$DBException: IO error: lock C:\Users\mabas\.rsk\mainnet\database\unitrie/LOCK: database already in use: could not acquire exclusive lock
+	at org.fusesource.leveldbjni.internal.NativeDB.checkStatus(NativeDB.java:200)
+	at org.fusesource.leveldbjni.internal.NativeDB.open(NativeDB.java:218)
+	at org.fusesource.leveldbjni.JniDBFactory.open(JniDBFactory.java:168)
+	at org.ethereum.datasource.LevelDbDataSource.init(LevelDbDataSource.java:104)
+	at org.ethereum.datasource.KeyValueDataSource.makeDataSource(KeyValueDataSource.java:88)
+	at co.rsk.RskContext.buildTrieStore(RskContext.java:1373)
+	at co.rsk.RskContext.buildAbstractTrieStore(RskContext.java:1502)
+	at co.rsk.RskContext.getTrieStore(RskContext.java:468)
+	at co.rsk.RskContext.buildRepositoryLocator(RskContext.java:1388)
+	at co.rsk.RskContext.getRepositoryLocator(RskContext.java:438)
+	at co.rsk.RskContext.getTransactionPool(RskContext.java:390)
+	at co.rsk.RskContext.buildInternalServices(RskContext.java:963)
+	at co.rsk.RskContext.buildNodeRunner(RskContext.java:1268)
+	at co.rsk.RskContext.getNodeRunner(RskContext.java:329)
+	at co.rsk.Start.runNode(Start.java:55)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-12:23:31.0739 ERROR [panic] [main]  leveldb: IO error: lock C:\Users\mabas\.rsk\mainnet\database\unitrie/LOCK: database already in use: could not acquire exclusive lock
+2023-07-12-12:23:31.0739 ERROR [panic] [main]  Stack Trace:
+java.lang.Throwable: null
+	at co.rsk.panic.PanicProcessor.panic(PanicProcessor.java:33)
+	at org.ethereum.datasource.LevelDbDataSource.init(LevelDbDataSource.java:109)
+	at org.ethereum.datasource.KeyValueDataSource.makeDataSource(KeyValueDataSource.java:88)
+	at co.rsk.RskContext.buildTrieStore(RskContext.java:1373)
+	at co.rsk.RskContext.buildAbstractTrieStore(RskContext.java:1502)
+	at co.rsk.RskContext.getTrieStore(RskContext.java:468)
+	at co.rsk.RskContext.buildRepositoryLocator(RskContext.java:1388)
+	at co.rsk.RskContext.getRepositoryLocator(RskContext.java:438)
+	at co.rsk.RskContext.getTransactionPool(RskContext.java:390)
+	at co.rsk.RskContext.buildInternalServices(RskContext.java:963)
+	at co.rsk.RskContext.buildNodeRunner(RskContext.java:1268)
+	at co.rsk.RskContext.getNodeRunner(RskContext.java:329)
+	at co.rsk.Start.runNode(Start.java:55)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-12:23:31.0739 ERROR [start] [main]  The RSK node main thread failed, closing program
+java.lang.RuntimeException: Can't initialize database
+	at org.ethereum.datasource.LevelDbDataSource.init(LevelDbDataSource.java:110)
+	at org.ethereum.datasource.KeyValueDataSource.makeDataSource(KeyValueDataSource.java:88)
+	at co.rsk.RskContext.buildTrieStore(RskContext.java:1373)
+	at co.rsk.RskContext.buildAbstractTrieStore(RskContext.java:1502)
+	at co.rsk.RskContext.getTrieStore(RskContext.java:468)
+	at co.rsk.RskContext.buildRepositoryLocator(RskContext.java:1388)
+	at co.rsk.RskContext.getRepositoryLocator(RskContext.java:438)
+	at co.rsk.RskContext.getTransactionPool(RskContext.java:390)
+	at co.rsk.RskContext.buildInternalServices(RskContext.java:963)
+	at co.rsk.RskContext.buildNodeRunner(RskContext.java:1268)
+	at co.rsk.RskContext.getNodeRunner(RskContext.java:329)
+	at co.rsk.Start.runNode(Start.java:55)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-12:24:31.0370 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-12:24:31.0370 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-12:24:31.0370 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-12:24:31.0433 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-12:24:31.0433 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-12:24:31.0448 ERROR [file] [main]  File C:\Users\mabas\.rsk\mainnet\database\blocks is not writable
+2023-07-12-12:24:31.0448 ERROR [file] [main]  File C:\Users\mabas\.rsk\mainnet\database\blooms is not writable
+2023-07-12-12:24:31.0448 ERROR [file] [main]  File C:\Users\mabas\.rsk\mainnet\database\receipts is not writable
+2023-07-12-12:24:31.0448 ERROR [file] [main]  File C:\Users\mabas\.rsk\mainnet\database\stateRoots is not writable
+2023-07-12-12:24:31.0448 ERROR [file] [main]  File C:\Users\mabas\.rsk\mainnet\database\unitrie is not writable
+2023-07-12-12:24:31.0448 ERROR [file] [main]  File C:\Users\mabas\.rsk\mainnet\database is not writable
+2023-07-12-12:39:05.0425 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-12:39:05.0425 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-12:39:05.0425 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-12:39:05.0690 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-12:39:05.0690 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-12:39:05.0939 ERROR [db] [main]  IO error: lock C:\Users\mabas\.rsk\mainnet\database\unitrie/LOCK: database already in use: could not acquire exclusive lock
+org.fusesource.leveldbjni.internal.NativeDB$DBException: IO error: lock C:\Users\mabas\.rsk\mainnet\database\unitrie/LOCK: database already in use: could not acquire exclusive lock
+	at org.fusesource.leveldbjni.internal.NativeDB.checkStatus(NativeDB.java:200)
+	at org.fusesource.leveldbjni.internal.NativeDB.open(NativeDB.java:218)
+	at org.fusesource.leveldbjni.JniDBFactory.open(JniDBFactory.java:168)
+	at org.ethereum.datasource.LevelDbDataSource.init(LevelDbDataSource.java:104)
+	at org.ethereum.datasource.KeyValueDataSource.makeDataSource(KeyValueDataSource.java:88)
+	at co.rsk.RskContext.buildTrieStore(RskContext.java:1373)
+	at co.rsk.RskContext.buildAbstractTrieStore(RskContext.java:1502)
+	at co.rsk.RskContext.getTrieStore(RskContext.java:468)
+	at co.rsk.RskContext.buildRepositoryLocator(RskContext.java:1388)
+	at co.rsk.RskContext.getRepositoryLocator(RskContext.java:438)
+	at co.rsk.RskContext.getTransactionPool(RskContext.java:390)
+	at co.rsk.RskContext.buildInternalServices(RskContext.java:963)
+	at co.rsk.RskContext.buildNodeRunner(RskContext.java:1268)
+	at co.rsk.RskContext.getNodeRunner(RskContext.java:329)
+	at co.rsk.Start.runNode(Start.java:55)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-12:39:05.0939 ERROR [panic] [main]  leveldb: IO error: lock C:\Users\mabas\.rsk\mainnet\database\unitrie/LOCK: database already in use: could not acquire exclusive lock
+2023-07-12-12:39:05.0939 ERROR [panic] [main]  Stack Trace:
+java.lang.Throwable: null
+	at co.rsk.panic.PanicProcessor.panic(PanicProcessor.java:33)
+	at org.ethereum.datasource.LevelDbDataSource.init(LevelDbDataSource.java:109)
+	at org.ethereum.datasource.KeyValueDataSource.makeDataSource(KeyValueDataSource.java:88)
+	at co.rsk.RskContext.buildTrieStore(RskContext.java:1373)
+	at co.rsk.RskContext.buildAbstractTrieStore(RskContext.java:1502)
+	at co.rsk.RskContext.getTrieStore(RskContext.java:468)
+	at co.rsk.RskContext.buildRepositoryLocator(RskContext.java:1388)
+	at co.rsk.RskContext.getRepositoryLocator(RskContext.java:438)
+	at co.rsk.RskContext.getTransactionPool(RskContext.java:390)
+	at co.rsk.RskContext.buildInternalServices(RskContext.java:963)
+	at co.rsk.RskContext.buildNodeRunner(RskContext.java:1268)
+	at co.rsk.RskContext.getNodeRunner(RskContext.java:329)
+	at co.rsk.Start.runNode(Start.java:55)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-12:39:05.0939 ERROR [start] [main]  The RSK node main thread failed, closing program
+java.lang.RuntimeException: Can't initialize database
+	at org.ethereum.datasource.LevelDbDataSource.init(LevelDbDataSource.java:110)
+	at org.ethereum.datasource.KeyValueDataSource.makeDataSource(KeyValueDataSource.java:88)
+	at co.rsk.RskContext.buildTrieStore(RskContext.java:1373)
+	at co.rsk.RskContext.buildAbstractTrieStore(RskContext.java:1502)
+	at co.rsk.RskContext.getTrieStore(RskContext.java:468)
+	at co.rsk.RskContext.buildRepositoryLocator(RskContext.java:1388)
+	at co.rsk.RskContext.getRepositoryLocator(RskContext.java:438)
+	at co.rsk.RskContext.getTransactionPool(RskContext.java:390)
+	at co.rsk.RskContext.buildInternalServices(RskContext.java:963)
+	at co.rsk.RskContext.buildNodeRunner(RskContext.java:1268)
+	at co.rsk.RskContext.getNodeRunner(RskContext.java:329)
+	at co.rsk.Start.runNode(Start.java:55)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-15:57:19.0439 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-15:57:19.0455 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-15:57:19.0455 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-15:57:19.0705 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-15:57:19.0720 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-15:57:19.0767 ERROR [c.r.u.PreflightChecksUtils] [main]  Invalid Java Version '20'. Supported versions: 8 11 17
+2023-07-12-15:57:19.0767 ERROR [start] [main]  The RSK node main thread failed, closing program
+co.rsk.util.PreflightCheckException: Invalid Java Version '20'. Supported versions: 8 11 17
+	at co.rsk.util.PreflightChecksUtils.checkSupportedJavaVersion(PreflightChecksUtils.java:49)
+	at co.rsk.util.PreflightChecksUtils.runChecks(PreflightChecksUtils.java:87)
+	at co.rsk.Start.runNode(Start.java:53)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-15:58:04.0443 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-15:58:04.0443 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-15:58:04.0443 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-15:58:04.0522 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-15:58:04.0522 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-15:58:04.0537 ERROR [c.r.u.PreflightChecksUtils] [main]  Invalid Java Version '20'. Supported versions: 8 11 17
+2023-07-12-15:58:04.0537 ERROR [start] [main]  The RSK node main thread failed, closing program
+co.rsk.util.PreflightCheckException: Invalid Java Version '20'. Supported versions: 8 11 17
+	at co.rsk.util.PreflightChecksUtils.checkSupportedJavaVersion(PreflightChecksUtils.java:49)
+	at co.rsk.util.PreflightChecksUtils.runChecks(PreflightChecksUtils.java:87)
+	at co.rsk.Start.runNode(Start.java:53)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-15:58:11.0120 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-15:58:11.0120 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-15:58:11.0120 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-15:58:11.0198 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-15:58:11.0198 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-15:58:11.0198 ERROR [c.r.u.PreflightChecksUtils] [main]  Invalid Java Version '20'. Supported versions: 8 11 17
+2023-07-12-15:58:11.0214 ERROR [start] [main]  The RSK node main thread failed, closing program
+co.rsk.util.PreflightCheckException: Invalid Java Version '20'. Supported versions: 8 11 17
+	at co.rsk.util.PreflightChecksUtils.checkSupportedJavaVersion(PreflightChecksUtils.java:49)
+	at co.rsk.util.PreflightChecksUtils.runChecks(PreflightChecksUtils.java:87)
+	at co.rsk.Start.runNode(Start.java:53)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-15:59:17.0956 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-15:59:17.0956 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-15:59:17.0956 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-15:59:18.0034 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-15:59:18.0034 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-15:59:18.0049 ERROR [c.r.u.PreflightChecksUtils] [main]  Invalid Java Version '20'. Supported versions: 8 11 17
+2023-07-12-15:59:18.0049 ERROR [start] [main]  The RSK node main thread failed, closing program
+co.rsk.util.PreflightCheckException: Invalid Java Version '20'. Supported versions: 8 11 17
+	at co.rsk.util.PreflightChecksUtils.checkSupportedJavaVersion(PreflightChecksUtils.java:49)
+	at co.rsk.util.PreflightChecksUtils.runChecks(PreflightChecksUtils.java:87)
+	at co.rsk.Start.runNode(Start.java:53)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-16:05:42.0313 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-16:05:42.0328 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-16:05:42.0328 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-16:05:42.0391 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-16:05:42.0391 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-16:05:42.0391 ERROR [c.r.u.PreflightChecksUtils] [main]  Invalid Java Version '20'. Supported versions: 8 11 17
+2023-07-12-16:05:42.0391 ERROR [start] [main]  The RSK node main thread failed, closing program
+co.rsk.util.PreflightCheckException: Invalid Java Version '20'. Supported versions: 8 11 17
+	at co.rsk.util.PreflightChecksUtils.checkSupportedJavaVersion(PreflightChecksUtils.java:49)
+	at co.rsk.util.PreflightChecksUtils.runChecks(PreflightChecksUtils.java:87)
+	at co.rsk.Start.runNode(Start.java:53)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-16:29:01.0368 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-16:29:01.0368 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-16:29:01.0368 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-16:29:01.0430 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-16:29:01.0446 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-16:29:01.0446 ERROR [c.r.u.PreflightChecksUtils] [main]  Invalid Java Version '20'. Supported versions: 8 11 17
+2023-07-12-16:29:01.0446 ERROR [start] [main]  The RSK node main thread failed, closing program
+co.rsk.util.PreflightCheckException: Invalid Java Version '20'. Supported versions: 8 11 17
+	at co.rsk.util.PreflightChecksUtils.checkSupportedJavaVersion(PreflightChecksUtils.java:49)
+	at co.rsk.util.PreflightChecksUtils.runChecks(PreflightChecksUtils.java:87)
+	at co.rsk.Start.runNode(Start.java:53)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-16:29:18.0295 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-16:29:18.0295 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-16:29:18.0295 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-16:29:18.0373 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-16:29:18.0373 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-16:29:18.0373 ERROR [c.r.u.PreflightChecksUtils] [main]  Invalid Java Version '20'. Supported versions: 8 11 17
+2023-07-12-16:29:18.0373 ERROR [start] [main]  The RSK node main thread failed, closing program
+co.rsk.util.PreflightCheckException: Invalid Java Version '20'. Supported versions: 8 11 17
+	at co.rsk.util.PreflightChecksUtils.checkSupportedJavaVersion(PreflightChecksUtils.java:49)
+	at co.rsk.util.PreflightChecksUtils.runChecks(PreflightChecksUtils.java:87)
+	at co.rsk.Start.runNode(Start.java:53)
+	at co.rsk.Start.main(Start.java:40)
+2023-07-12-16:29:31.0635 INFO [config] [main]  Config ( no ): user properties from -Drsk.conf.file file 'null'
+2023-07-12-16:29:31.0635 INFO [config] [main]  Config ( no ): default properties from installer '/etc/rsk/node.conf'
+2023-07-12-16:29:31.0635 INFO [config] [main]  Network not set, using mainnet by default
+2023-07-12-16:29:31.0713 WARN [secp256k1] [main]  Signature Service native is not available, initialized Bouncy Castle.
+2023-07-12-16:29:31.0713 INFO [altbn128] [main]  Loaded JavaAltBN128
+2023-07-12-16:29:31.0713 ERROR [c.r.u.PreflightChecksUtils] [main]  Invalid Java Version '20'. Supported versions: 8 11 17
+2023-07-12-16:29:31.0713 ERROR [start] [main]  The RSK node main thread failed, closing program
+co.rsk.util.PreflightCheckException: Invalid Java Version '20'. Supported versions: 8 11 17
+	at co.rsk.util.PreflightChecksUtils.checkSupportedJavaVersion(PreflightChecksUtils.java:49)
+	at co.rsk.util.PreflightChecksUtils.runChecks(PreflightChecksUtils.java:87)
+	at co.rsk.Start.runNode(Start.java:53)
+	at co.rsk.Start.main(Start.java:40)
