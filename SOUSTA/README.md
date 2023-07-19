@@ -39,7 +39,7 @@ dependencies:
 
 ```sh
 git clone https://github.com/gp22/bitcoin-scaling-hackathon.git
-cd SOUSTA-MVP
+cd bitcoin-scaling-hackathon/SOUSTA
 yarn install
 ```
 
