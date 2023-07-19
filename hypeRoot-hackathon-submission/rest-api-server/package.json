@@ -1,0 +1,27 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "joinIdentity.js",
+  "scripts": {
+    "enroll": "node enrollAdmin.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "child-process": "^1.0.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.5.4",
+    "express": "^4.18.2",
+    "fabric-ca-client": "^2.2.18",
+    "fabric-client": "^1.4.20",
+    "fabric-network": "^2.2.18",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "path": "^0.12.7",
+    "web3": "^4.0.2"
+  }
+}
