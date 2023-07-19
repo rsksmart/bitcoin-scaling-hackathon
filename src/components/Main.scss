@@ -1,0 +1,58 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css";
+/* Fonts */
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
+// 
+
+html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	padding: 0px;
+	margin: 0px;
+	max-width: 100%;
+	overflow-x: hidden;
+	color: black;
+}
+:root {
+	--main: #FEC34A !important;
+	--main50: #f7af20 !important;
+}
+.bg-primary {
+	background-color: var(--main);
+	&:hover {
+		background-color: var(--main50);
+	}
+}
+.btn-primary {
+	background-color: var(--main);
+	&:hover {
+		background-color: var(--main50);
+	}
+}
+.text-primary {
+	color: var(--main);
+	&:hover {
+		color: var(--main50);
+	}
+}
+main {
+	h3.badge {
+		display: flex;
+		margin-right: 1rem;
+		width: 3rem;
+		height: 3rem;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex-shrink: 0;
+		text-align: center;
+		border-radius: 100%;
+		background: #FFA52E;
+		color: #000;
+		font-size: 1.2rem;
+	}
+}
