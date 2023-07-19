@@ -1,0 +1,27 @@
+{% extends "account/email/base_message.txt" %}
+{% load i18n %}
+
+{% block content %}
+{% autoescape off %}
+{% blocktrans %}
+<p>Only verified accounts can rank on the leaderboard and withdraw sats. Referral incentives are only paid out to level 2 & verified accounts.</p>
+
+<p>In order to fully activate your Yzer account, please verify your email address by clicking the following link:</p>
+{% endblocktrans %}
+
+<p><a href="{{ email_verification_url }}">{{ _('Confirm my account') }}</a></p>
+
+
+{% blocktrans %}
+<p>Or copy and paste the following into your browser: {{ email_verification_url }}</p>
+{% endblocktrans %}
+
+<p>If you are having any issues with your account, please email us directly at hello@yzer.io</p>
+
+{% endautoescape %}
+{% endblock %}
+
+
+
+
+

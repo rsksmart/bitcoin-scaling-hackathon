@@ -1,0 +1,7 @@
+{% load i18n %}{% autoescape off %}{% blocktrans %}Hello from Yzer!{% endblocktrans %}
+
+{% block content %}{% endblock %}
+
+{% blocktrans %}Thank you for using Yzer!
+https://yzer.io/{% endblocktrans %}
+{% endautoescape %}

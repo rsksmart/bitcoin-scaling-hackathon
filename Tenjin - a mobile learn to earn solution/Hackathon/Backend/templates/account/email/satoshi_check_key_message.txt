@@ -1,0 +1,23 @@
+{% load i18n %}
+
+{% block content %}
+    {% autoescape off %}
+        Hello,
+
+        The following Yzer App User triggered this alert:
+
+        The difference between the Satoshi earned and the Total Satoshi is not equal to 50!
+
+        {% block user_list %}
+            {% for user in users_issue_list %}
+                User ID: {{ user.id }}
+                Username: {{ user.username }}
+                Email: {{ user.email }}
+                Satoshi Earned: {{ user.satoshi_earned }}
+                Total Satoshi: {{ user.total_satoshi_after_withdrawal }}
+            {% endfor %}
+        {% endblock %}
+
+        Thank you for processing this request.
+    {% endautoescape %}
+{% endblock %}

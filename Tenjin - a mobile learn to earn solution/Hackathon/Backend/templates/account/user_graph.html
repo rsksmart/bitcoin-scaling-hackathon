@@ -1,0 +1,59 @@
+{% extends 'account/base-stats.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h1 class="mb-5">User Graphs</h1>
+            <div class="card mb-5">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div id="line_plot" class="graph-container">{{ line_plot_div|safe }}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div id="active_users_plot" class="graph-container">{{ active_users_plot_div|safe }}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div id="active_users_over_time_plot" class="graph-container">{{ active_users_over_time_plot_div|safe }}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div id="class_completed_over_time_plot" class="graph-container">{{ class_completed_over_time_plot_div|safe }}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5">
+                <div class="card-body">
+                    <div class="card-text">
+                        <h5 id="transactios_amount_over_time_plot_div" class="graph-container">Total Payout from contract: {{ transactios_amount_over_time_plot_div|safe }}</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5">
+                <div class="card-body">
+                    <div class="card-text">
+                        <h5 id="contract balance" class="graph-container">Contract Balance: {{ formatted_contract_balance|safe }}</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-5">
+                <div class="card-body">
+                    <h5 class="card-title">Total User Accounts: {{ TU }}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

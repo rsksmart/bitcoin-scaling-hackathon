@@ -1,0 +1,16 @@
+services:
+  postgres:
+    container_name: postgres-container
+    image: postgres:14
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=local-tenjin-database #optional (specify default database instead of $POSTGRES_DB)
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_db_tenjin:/var/lib/postgresql/data
+    restart: always
+
+volumes:
+  postgres_db_tenjin:
