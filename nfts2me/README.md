@@ -145,7 +145,7 @@ We haven't been able to verify them as current there is no support on testnet fo
   
 ## Source-code
 
-* https://github.com/nfts2me/n2m-bitcoin-scaling-hackathon/contracts/
+* https://github.com/nfts2me/n2m-bitcoin-scaling-hackathon/tree/main/nfts2me/contracts/
 
   
 ## Feedback
