@@ -1,0 +1,58 @@
+const Web3Deploy = require('@rootstack/web3deploy');
+const web3 = new Web3Deploy('http://127.0.0.1:4444'); // Replace with your RootStack network URL
+
+async function connectWallet() {
+  // Check if the user's wallet is already connected
+  if (typeof window.ethereum !== 'undefined') {
+    try {
+      // Request user permission to connect their wallet
+      await window.ethereum.enable();
+      const accounts = await web3.eth.getAccounts();
+
+      // Return the connected wallet address
+      return accounts[0];
+    } catch (error) {
+      console.error('Failed to connect wallet:', error);
+    }
+  } else {
+    console.error('No wallet provider detected');
+  }
+
+  return null;
+}
+
+async function checkBalance(walletAddress) {
+  try {
+    const balance = await web3.eth.getBalance(walletAddress);
+    console.log('Wallet balance:', web3.utils.fromWei(balance, 'ether'), 'ETH');
+  } catch (error) {
+    console.error('Error checking wallet balance:', error);
+  }
+}
+
+async function signTransaction(transaction) {
+  try {
+    const signedTransaction = await web3.eth.signTransaction(transaction);
+    console.log('Signed transaction:', signedTransaction);
+  } catch (error) {
+    console.error('Error signing transaction:', error);
+  }
+}
+
+// Usage
+async function main() {
+  const walletAddress = await connectWallet();
+  if (walletAddress) {
+    await checkBalance(walletAddress);
+
+    const transaction = {
+      from: walletAddress,
+      to: '0x...',
+      value: web3.utils.toWei('0.1', 'ether'),
+    };
+
+    await signTransaction(transaction);
+  }
+}
+
+main();

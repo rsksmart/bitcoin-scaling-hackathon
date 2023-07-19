@@ -1,0 +1,26 @@
+// app/controllers/transactionController.js
+
+// Create a transaction
+const createTransaction = async (req, res) => {
+    try {
+      // Validate transaction input
+  
+      // Create a new transaction
+      const newTransaction = await Transaction.create(req.body);
+  
+      // Update NFT ownership
+      const nft = await NFT.findByIdAndUpdate(
+        req.body.nftId,
+        { owner: req.body.buyer },
+        { new: true }
+      );
+  
+      // Process payment
+  
+      // Return the transaction details
+      res.status(200).json({ transaction: newTransaction, nft });
+    } catch (error) {
+      res.status(500).json({ error: 'Transaction failed' });
+    }
+  };
+  

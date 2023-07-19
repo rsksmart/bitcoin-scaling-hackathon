@@ -1,0 +1,45 @@
+// UserController.ts
+
+import { Request, Response } from 'express';
+import { User } from '../models/User';
+
+// User registration
+export async function registerUser(req: Request, res: Response) {
+  try {
+    const { username, password } = req.body;
+    
+    // Create a new user record in the database
+    const newUser = await User.create({
+      username,
+      password,
+    });
+
+    return res.status(201).json({ success: true, message: 'User registered successfully' });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ success: false, message: 'An error occurred while registering user' });
+  }
+}
+
+// User login
+export async function loginUser(req: Request, res: Response) {
+  try {
+    const { username, password } = req.body;
+
+    // Find the user in the database
+    const user = await User.findOne({ username });
+
+    // Validate the user's credentials
+    if (!user || !user.comparePassword(password)) {
+      return res.status(401).json({ success: false, message: 'Invalid username or password' });
+    }
+
+    // Generate a JWT token for authentication
+    const token = user.generateAuthToken();
+
+    return res.json({ success: true, token });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ success: false, message: 'An error occurred while logging in' });
+  }
+}
