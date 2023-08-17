@@ -1,6 +1,8 @@
 # Rootstock: Bitcoin Scaling Hackathon
 
-### Phase I: Ideathon
+### Phase I: Ideathon 🥇🥇🥇
+
+Our vision with Tuki is to revolutionize payments by harnessing the power of blockchain. Winning first place 🥇 at the ideathon phase of the ‘Rootstock: Scaling Bitcoin ₿ Hackathon’ reinforces the power of our solution and encourages us that a decentralized future is possible. As a team, we are thrilled and honored!
 
 ## Tuki - Self custodial debit card
 
